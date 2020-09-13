@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#FFF">
-  <link rel="apple-touch-icon" sizes="180x180" href="//cdn.jsdelivr.net/gh/wawacmpic/wawacmpic.github.io/images/wawa.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/wawa.ico">
 
-<link rel="icon" type="image/ico" sizes="32x32" href="//cdn.jsdelivr.net/gh/wawacmpic/wawacmpic.github.io/images/favicon.ico">
+<link rel="icon" type="image/ico" sizes="32x32" href="/images/favicon.ico">
   <meta http-equiv="Cache-Control" content="no-transform">
   <meta http-equiv="Cache-Control" content="no-siteapp">
 
@@ -18,7 +18,7 @@
 
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 
-<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/wawacmpic/wawacmpic.github.io/css/app.css?v=0.1.5">
+<link rel="stylesheet" href="/css/app.css?v=0.1.5">
 
   
 
@@ -100,7 +100,7 @@ Nginx 服务器日志配置 – 解决使用CDN记录真实用户IP（包括宝�
 
       </div>
       <div id="imgs" class="pjax">
-          <img src="https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9keyiv7j30ke0hu41a.jpg">
+          <img src="//cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9keyiv7j30ke0hu41a.jpg">
       </div>
     </header>
     <div id="waves">
@@ -131,7 +131,7 @@ Nginx 服务器日志配置 – 解决使用CDN记录真实用户IP（包括宝�
   <link itemprop="mainEntityOfPage" href="https://blog.wxl.pw/2020/09/13/Nginx-%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%97%A5%E5%BF%97%E9%85%8D%E7%BD%AE-%E2%80%93-%E8%A7%A3%E5%86%B3%E4%BD%BF%E7%94%A8CDN%E8%AE%B0%E5%BD%95%E7%9C%9F%E5%AE%9E%E7%94%A8%E6%88%B7IP%EF%BC%88%E5%8C%85%E6%8B%AC%E5%AE%9D%E5%A1%94%EF%BC%89/">
 
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="image" content="//cdn.jsdelivr.net/gh/wawacmpic/wawacmpic.github.io/images/avatar.jpg">
+    <meta itemprop="image" content="/images/avatar.jpg">
     <meta itemprop="name" content="wawa">
     <meta itemprop="description" content=", 记录个人生活">
   </span>
@@ -146,28 +146,34 @@ Nginx 服务器日志配置 – 解决使用CDN记录真实用户IP（包括宝�
     <h2 id="修改的配置文件位置"><a href="#修改的配置文件位置" class="headerlink" title="修改的配置文件位置"></a>修改的配置文件位置</h2><p>该怎么改网上的教程已经很多，但是到底在哪个文件的什么地方修改，如何生效这才是根本问题。</p>
 <p>我们需要修改是的<code>nginx.conf</code> 根配置文件</p>
 <p>使用lnmp的服务器一般配置文件在：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/local/nginx/conf/nginx.conf</span><br></pre></td></tr></table></figure>
 
 <p>，宝塔的配置文件我发现有两个地方有<code>nginx.conf</code>配置文件：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;www&#x2F;server&#x2F;nginx&#x2F;conf&#x2F;nginx.conf&#96;，&#96;&#x2F;www&#x2F;server&#x2F;nginx&#x2F;src&#x2F;conf&#x2F;nginx.conf</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/www/server/nginx/conf/nginx.conf<span class="string">`，`</span>/www/server/nginx/src/conf/nginx.conf</span><br></pre></td></tr></table></figure>
 
 <p>。有效的配置文件是：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;www&#x2F;server&#x2F;nginx&#x2F;conf&#x2F;nginx.conf</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/www/server/nginx/conf/nginx.conf</span><br></pre></td></tr></table></figure>
 
 <p>在以下位置添加修改的配置：</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9keyiv7j30ke0hu41a.jpg"></p>
+<img data-src="https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9keyiv7j30ke0hu41a.jpg" alt="img" style="zoom:200%;" />
+
+
+
 <p>其中需要注意的是<code>log_format main</code>，这里的<code>main</code>，需要在vhost中各站点的日志配置的地方要带上，表示使用这个配置，如图：</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9kn6bc6j30ji0dj0ts.jpg"></p>
+<img data-src="https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9kn6bc6j30ji0dj0ts.jpg" alt="img" style="zoom:150%;" />
+
 <p>修改以上两个位置即可让配置生效。</p>
 <h2 id="参数配置"><a href="#参数配置" class="headerlink" title="参数配置"></a>参数配置</h2><p>通过抓包可以看到，cdn节点在溯源请求服务器地址的时候会将用户客户端的ip带上，以<code>X-Forwarded-For</code>，<code>CF-Connecting-IP</code>两个参数的形式，如图：</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9kwruy3j30tx0c7dhf.jpg"></p>
+<img data-src="https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9kwruy3j30tx0c7dhf.jpg" alt="img"  />
+
+
+
 <p>如果客户端加一个<code>x-forwarded-for</code>参数来尝试篡改，实际上该参数会有两个ip，后面的一个ip永远是真实ip，前面是伪造的：“8.8.8.8,163.160.73.253”</p>
 <p>所以在配置日志参数时，可以将<code>X-Forwarded-For</code>参数的值放到第一位，nginx模块中的变量为<code>$http_x_forwarded_for</code>，所以最终的格式为以下，其中保留了原始的<code>$remote_addr</code>，否则真实ip请求网站无法获取ip。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">log_format  main  &#39;&quot;$http_x_forwarded_for&quot;-$remote_addr - $remote_user [$time_local] &quot;$request&quot; &#39;</span><br><span class="line">                     &#39;$status $body_bytes_sent &quot;$http_referer&quot; &#39;</span><br><span class="line">                     &#39;&quot;$http_user_agent&quot; &quot;$http_x_forwarded_for&quot;&#39;; </span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">log_format  main  <span class="string">&#x27;&quot;$http_x_forwarded_for&quot;-$remote_addr - $remote_user [$time_local] &quot;$request&quot; &#x27;</span></span><br><span class="line">                     <span class="string">&#x27;$status $body_bytes_sent &quot;$http_referer&quot; &#x27;</span></span><br><span class="line">                     <span class="string">&#x27;&quot;$http_user_agent&quot; &quot;$http_x_forwarded_for&quot;&#x27;</span>; </span><br></pre></td></tr></table></figure>
 
 <p>综合以上的配置，最终日志格式完美记录真实ip与cdn节点的ip：</p>
-<p><img data-src="https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9l248uzj30lk07ijst.jpg"></p>
-
+<img data-src="https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9l248uzj30lk07ijst.jpg" alt="img" style="zoom:150%;" />
   </div>
 
    <footer>
@@ -178,7 +184,7 @@ Nginx 服务器日志配置 – 解决使用CDN记录真实用户IP（包括宝�
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新于</span>
-    <time title="修改时间：2020-09-13 21:05:28" itemprop="dateModified" datetime="2020-09-13T21:05:28+08:00">2020-09-13</time>
+    <time title="修改时间：2020-09-13 22:50:39" itemprop="dateModified" datetime="2020-09-13T22:50:39+08:00">2020-09-13</time>
   </span>
   <span id="2020/09/13/Nginx-服务器日志配置-–-解决使用CDN记录真实用户IP（包括宝塔）/" class="item leancloud_visitors" data-flag-title="Nginx 服务器日志配置 – 解决使用CDN记录真实用户IP（包括宝塔）" title="阅读次数">
       <span class="icon">
@@ -218,7 +224,7 @@ Nginx 服务器日志配置 – 解决使用CDN记录真实用户IP（包括宝�
     <div class="item left">
       
 
-  <a href="/2020/09/13/%E5%AE%9D%E5%A1%94%E7%A0%B4%E8%A7%A3%E7%89%88/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva2.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giclfdu6exj20zk0m87hw.jpg" title="宝塔破解版">
+  <a href="/2020/09/13/%E5%AE%9D%E5%A1%94%E7%A0%B4%E8%A7%A3%E7%89%88/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva3.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giclhpw3lwj20zk0m8gvw.jpg" title="宝塔破解版">
   <span class="type">上一篇</span>
   <span class="category"><i class="ic i-flag"></i> </span>
   <h3>宝塔破解版</h3>
@@ -228,10 +234,10 @@ Nginx 服务器日志配置 – 解决使用CDN记录真实用户IP（包括宝�
     <div class="item right">
       
 
-  <a href="/2020/09/13/%E8%A7%A3%E5%86%B3Nginx%E9%87%8D%E5%90%AF%E6%97%B6%E6%8F%90%E7%A4%BAnginx-emerg-bind-to-0-0-0-0-80%E9%94%99%E8%AF%AF/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;wawacmpic&#x2F;pic&#x2F;wawacdn&#x2F;20171213032408-1.png" title="解决Nginx重启时提示nginx: [emerg] bind() to 0.0.0.0:80错误">
+  <a href="/2020/09/13/nginx%E6%8F%90%E7%A4%BA-emerg-bind-to-0-0-0-0-80/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;wawacmpic&#x2F;pic&#x2F;wawacdn&#x2F;20200913214015.png" title="nginx提示[emerg] bind() to 0.0.0.0:80">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> </span>
-  <h3>解决Nginx重启时提示nginx: [emerg] bind() to 0.0.0.0:80错误</h3>
+  <h3>nginx提示[emerg] bind() to 0.0.0.0:80</h3>
   </a>
 
     </div>
@@ -257,7 +263,7 @@ Nginx 服务器日志配置 – 解决使用CDN记录真实用户IP（包括宝�
       <div class="overview panel" data-title="站点概览">
         <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <img class="image" itemprop="image" alt="wawa"
-      data-src="https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/aboutlogo.png">
+      data-src="/images/avatar.jpg">
   <p class="name" itemprop="name">wawa</p>
   <div class="description" itemprop="description">记录个人生活</div>
 </div>
@@ -318,7 +324,7 @@ Nginx 服务器日志配置 – 解决使用CDN记录真实用户IP（包括宝�
     <li class="up"><i class="ic i-arrow-up"></i></li>
     <li class="down"><i class="ic i-arrow-down"></i></li>
     <li class="next pjax">
-        <a href="/2020/09/13/%E8%A7%A3%E5%86%B3Nginx%E9%87%8D%E5%90%AF%E6%97%B6%E6%8F%90%E7%A4%BAnginx-emerg-bind-to-0-0-0-0-80%E9%94%99%E8%AF%AF/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a>
+        <a href="/2020/09/13/nginx%E6%8F%90%E7%A4%BA-emerg-bind-to-0-0-0-0-80/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a>
     </li>
     <li class="percent"></li>
   </ul>
@@ -342,7 +348,7 @@ Nginx 服务器日志配置 – 解决使用CDN记录真实用户IP（包括宝�
 </div>
 
 <div class="powered-by">
-  基于 <span class="exturl" data-url="aHR0cHM6Ly93d3cueWF2YS5wdw==">wawaCM</span> & about.<span class="exturl" data-url="aHR0cHM6Ly9hYm91dC53YXdhY20uY29t">wawa</span>
+  基于 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
 </div>
 
       </div>
@@ -352,8 +358,8 @@ Nginx 服务器日志配置 – 解决使用CDN记录真实用户IP（包括宝�
   var LOCAL = {
     path: 'https://blog.wxl.pw/2020/09/13/Nginx-%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%97%A5%E5%BF%97%E9%85%8D%E7%BD%AE-%E2%80%93-%E8%A7%A3%E5%86%B3%E4%BD%BF%E7%94%A8CDN%E8%AE%B0%E5%BD%95%E7%9C%9F%E5%AE%9E%E7%94%A8%E6%88%B7IP%EF%BC%88%E5%8C%85%E6%8B%AC%E5%AE%9D%E5%A1%94%EF%BC%89/',
     favicon: {
-      show: "（●´3｀●）やれやれだぜ",
-      hide: "(´Д｀)大変だ！"
+      show: "（●´3｀●）欢迎回来",
+      hide: "(´Д｀)别走开丫"
     },
     search : {
       placeholder: "文章搜索",
@@ -374,7 +380,7 @@ Nginx 服务器日志配置 – 解决使用CDN记录真实用户IP（包括宝�
 
 <script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js,npm/velocity-animate@1.5.2/velocity.min.js,npm/velocity-animate@1.5.2/velocity.ui.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script>
 
-<script src="//cdn.jsdelivr.net/gh/wawacmpic/wawacmpic.github.io/js/app.js?v=0.1.5"></script>
+<script src="/js/app.js?v=0.1.5"></script>
 
 
 
