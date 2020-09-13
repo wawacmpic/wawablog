@@ -26,12 +26,12 @@
 <meta name="description" content="记录个人生活" >
 
 
-<link rel="canonical" href="https://blog.wxl.pw/2020/09/13/%E6%9C%AC%E7%AB%99%E5%A3%B0%E6%98%8E/">
+<link rel="canonical" href="https://blog.wxl.pw/2020/09/13/Nginx-%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%97%A5%E5%BF%97%E9%85%8D%E7%BD%AE-%E2%80%93-%E8%A7%A3%E5%86%B3%E4%BD%BF%E7%94%A8CDN%E8%AE%B0%E5%BD%95%E7%9C%9F%E5%AE%9E%E7%94%A8%E6%88%B7IP%EF%BC%88%E5%8C%85%E6%8B%AC%E5%AE%9D%E5%A1%94%EF%BC%89/">
 
 
 
   <title>
-本站声明 |
+Nginx 服务器日志配置 – 解决使用CDN记录真实用户IP（包括宝塔） |
 娃娃Blog = wawa</title>
 <meta name="generator" content="Hexo 5.1.1"></head>
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -59,16 +59,16 @@
         <div id="brand">
           <div class="pjax">
           
-  <h1 itemprop="name headline">本站声明
+  <h1 itemprop="name headline">Nginx 服务器日志配置 – 解决使用CDN记录真实用户IP（包括宝塔）
   </h1>
   
 <div class="meta">
-  <span class="item" title="创建时间：2020-09-13 01:28:37">
+  <span class="item" title="创建时间：2020-09-13 19:41:29">
     <span class="icon">
       <i class="ic i-calendar"></i>
     </span>
     <span class="text">发表于</span>
-    <time itemprop="dateCreated datePublished" datetime="2020-09-13T01:28:37+08:00">2020-09-13</time>
+    <time itemprop="dateCreated datePublished" datetime="2020-09-13T19:41:29+08:00">2020-09-13</time>
   </span>
 </div>
 
@@ -100,14 +100,7 @@
 
       </div>
       <div id="imgs" class="pjax">
-        <ul>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1gicitcxhpij20zk0m8hdt.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1gicmnywqgpj20zk0m8dwx.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giclwuom7cj20zk0m8dvn.jpg"></li>
-          <li class="item" data-background-image="https://tva4.sinaimg.cn/large/6833939bly1giclwrdwyaj20zk0m8are.jpg"></li>
-          <li class="item" data-background-image="https://tva3.sinaimg.cn/large/6833939bly1giclize41wj20zk0m87gk.jpg"></li>
-          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gicitf0kl1j20zk0m87fe.jpg"></li>
-        </ul>
+          <img src="https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9keyiv7j30ke0hu41a.jpg">
       </div>
     </header>
     <div id="waves">
@@ -135,7 +128,7 @@
 </div>
 
     <article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-CN">
-  <link itemprop="mainEntityOfPage" href="https://blog.wxl.pw/2020/09/13/%E6%9C%AC%E7%AB%99%E5%A3%B0%E6%98%8E/">
+  <link itemprop="mainEntityOfPage" href="https://blog.wxl.pw/2020/09/13/Nginx-%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%97%A5%E5%BF%97%E9%85%8D%E7%BD%AE-%E2%80%93-%E8%A7%A3%E5%86%B3%E4%BD%BF%E7%94%A8CDN%E8%AE%B0%E5%BD%95%E7%9C%9F%E5%AE%9E%E7%94%A8%E6%88%B7IP%EF%BC%88%E5%8C%85%E6%8B%AC%E5%AE%9D%E5%A1%94%EF%BC%89/">
 
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="image" content="//cdn.jsdelivr.net/gh/wawacmpic/wawacmpic.github.io/images/avatar.jpg">
@@ -150,8 +143,30 @@
   <div class="body md" itemprop="articleBody">
     
 
-    <h1 id="网站用途"><a href="#网站用途" class="headerlink" title="网站用途"></a>网站用途</h1><p>本站是娃娃创办，文章内涉及的任何内容，均与娃娃团队无关，不代表团队观点以及看法，本网站仅记录娃娃生活琐事，电脑教程等内容。</p>
-<h1 id="可靠性"><a href="#可靠性" class="headerlink" title="可靠性"></a>可靠性</h1><p>网站仅个人观点，无论任何内容，都可能存在不可靠，不稳定，没求证的内容，服务器在海外，受当地法律及法规保护。</p>
+    <h2 id="修改的配置文件位置"><a href="#修改的配置文件位置" class="headerlink" title="修改的配置文件位置"></a>修改的配置文件位置</h2><p>该怎么改网上的教程已经很多，但是到底在哪个文件的什么地方修改，如何生效这才是根本问题。</p>
+<p>我们需要修改是的<code>nginx.conf</code> 根配置文件</p>
+<p>使用lnmp的服务器一般配置文件在：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf</span><br></pre></td></tr></table></figure>
+
+<p>，宝塔的配置文件我发现有两个地方有<code>nginx.conf</code>配置文件：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;www&#x2F;server&#x2F;nginx&#x2F;conf&#x2F;nginx.conf&#96;，&#96;&#x2F;www&#x2F;server&#x2F;nginx&#x2F;src&#x2F;conf&#x2F;nginx.conf</span><br></pre></td></tr></table></figure>
+
+<p>。有效的配置文件是：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;www&#x2F;server&#x2F;nginx&#x2F;conf&#x2F;nginx.conf</span><br></pre></td></tr></table></figure>
+
+<p>在以下位置添加修改的配置：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9keyiv7j30ke0hu41a.jpg"></p>
+<p>其中需要注意的是<code>log_format main</code>，这里的<code>main</code>，需要在vhost中各站点的日志配置的地方要带上，表示使用这个配置，如图：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9kn6bc6j30ji0dj0ts.jpg"></p>
+<p>修改以上两个位置即可让配置生效。</p>
+<h2 id="参数配置"><a href="#参数配置" class="headerlink" title="参数配置"></a>参数配置</h2><p>通过抓包可以看到，cdn节点在溯源请求服务器地址的时候会将用户客户端的ip带上，以<code>X-Forwarded-For</code>，<code>CF-Connecting-IP</code>两个参数的形式，如图：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9kwruy3j30tx0c7dhf.jpg"></p>
+<p>如果客户端加一个<code>x-forwarded-for</code>参数来尝试篡改，实际上该参数会有两个ip，后面的一个ip永远是真实ip，前面是伪造的：“8.8.8.8,163.160.73.253”</p>
+<p>所以在配置日志参数时，可以将<code>X-Forwarded-For</code>参数的值放到第一位，nginx模块中的变量为<code>$http_x_forwarded_for</code>，所以最终的格式为以下，其中保留了原始的<code>$remote_addr</code>，否则真实ip请求网站无法获取ip。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">log_format  main  &#39;&quot;$http_x_forwarded_for&quot;-$remote_addr - $remote_user [$time_local] &quot;$request&quot; &#39;</span><br><span class="line">                     &#39;$status $body_bytes_sent &quot;$http_referer&quot; &#39;</span><br><span class="line">                     &#39;&quot;$http_user_agent&quot; &quot;$http_x_forwarded_for&quot;&#39;; </span><br></pre></td></tr></table></figure>
+
+<p>综合以上的配置，最终日志格式完美记录真实ip与cdn节点的ip：</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9l248uzj30lk07ijst.jpg"></p>
 
   </div>
 
@@ -163,9 +178,9 @@
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新于</span>
-    <time title="修改时间：2020-09-13 01:34:48" itemprop="dateModified" datetime="2020-09-13T01:34:48+08:00">2020-09-13</time>
+    <time title="修改时间：2020-09-13 21:05:28" itemprop="dateModified" datetime="2020-09-13T21:05:28+08:00">2020-09-13</time>
   </span>
-  <span id="2020/09/13/本站声明/" class="item leancloud_visitors" data-flag-title="本站声明" title="阅读次数">
+  <span id="2020/09/13/Nginx-服务器日志配置-–-解决使用CDN记录真实用户IP（包括宝塔）/" class="item leancloud_visitors" data-flag-title="Nginx 服务器日志配置 – 解决使用CDN记录真实用户IP（包括宝塔）" title="阅读次数">
       <span class="icon">
         <i class="ic i-eye"></i>
       </span>
@@ -184,7 +199,7 @@
   </li>
   <li class="link">
     <strong>本文链接：</strong>
-    <a href="https://blog.wxl.pw/2020/09/13/%E6%9C%AC%E7%AB%99%E5%A3%B0%E6%98%8E/" title="本站声明">https://blog.wxl.pw/2020/09/13/本站声明/</a>
+    <a href="https://blog.wxl.pw/2020/09/13/Nginx-%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%97%A5%E5%BF%97%E9%85%8D%E7%BD%AE-%E2%80%93-%E8%A7%A3%E5%86%B3%E4%BD%BF%E7%94%A8CDN%E8%AE%B0%E5%BD%95%E7%9C%9F%E5%AE%9E%E7%94%A8%E6%88%B7IP%EF%BC%88%E5%8C%85%E6%8B%AC%E5%AE%9D%E5%A1%94%EF%BC%89/" title="Nginx 服务器日志配置 – 解决使用CDN记录真实用户IP（包括宝塔）">https://blog.wxl.pw/2020/09/13/Nginx-服务器日志配置-–-解决使用CDN记录真实用户IP（包括宝塔）/</a>
   </li>
   <li class="license">
     <strong>版权声明： </strong>本站所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 许可协议。转载请注明出处！
@@ -201,21 +216,29 @@
 
 <div class="nav">
     <div class="item left">
+      
+
+  <a href="/2020/09/13/%E5%AE%9D%E5%A1%94%E7%A0%B4%E8%A7%A3%E7%89%88/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva2.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1giclfdu6exj20zk0m87hw.jpg" title="宝塔破解版">
+  <span class="type">上一篇</span>
+  <span class="category"><i class="ic i-flag"></i> </span>
+  <h3>宝塔破解版</h3>
+  </a>
+
     </div>
     <div class="item right">
       
 
-  <a href="/2020/09/13/%E5%88%86%E4%BA%AB%E5%87%A0%E4%B8%AA%E6%8F%90%E9%AB%98%E6%95%88%E7%8E%87%E7%9A%84%E7%BD%91%E7%AB%99-%E8%BD%AF%E4%BB%B6/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;wawacmpic&#x2F;pic&#x2F;wawacdn&#x2F;20200912200457.jpg" title="分享几个提高效率的网站&#x2F;软件">
+  <a href="/2020/09/13/%E8%A7%A3%E5%86%B3Nginx%E9%87%8D%E5%90%AF%E6%97%B6%E6%8F%90%E7%A4%BAnginx-emerg-bind-to-0-0-0-0-80%E9%94%99%E8%AF%AF/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;wawacmpic&#x2F;pic&#x2F;wawacdn&#x2F;20171213032408-1.png" title="解决Nginx重启时提示nginx: [emerg] bind() to 0.0.0.0:80错误">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> </span>
-  <h3>分享几个提高效率的网站/软件</h3>
+  <h3>解决Nginx重启时提示nginx: [emerg] bind() to 0.0.0.0:80错误</h3>
   </a>
 
     </div>
 </div>
 
   
-  <div class="wrap" id="comments" data-id="2020/09/13/本站声明/"></div>
+  <div class="wrap" id="comments" data-id="2020/09/13/Nginx-服务器日志配置-–-解决使用CDN记录真实用户IP（包括宝塔）/"></div>
 
 
         </div>
@@ -227,7 +250,7 @@
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BD%91%E7%AB%99%E7%94%A8%E9%80%94"><span class="toc-number">1.</span> <span class="toc-text">网站用途</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8F%AF%E9%9D%A0%E6%80%A7"><span class="toc-number">2.</span> <span class="toc-text">可靠性</span></a></li></ol>
+          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%BD%8D%E7%BD%AE"><span class="toc-number">1.</span> <span class="toc-text">修改的配置文件位置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E6%95%B0%E9%85%8D%E7%BD%AE"><span class="toc-number">2.</span> <span class="toc-text">参数配置</span></a></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
       </div>
@@ -290,10 +313,12 @@
 
   <ul id="quick">
     <li class="prev pjax">
+        <a href="/2020/09/13/%E5%AE%9D%E5%A1%94%E7%A0%B4%E8%A7%A3%E7%89%88/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a>
     </li>
     <li class="up"><i class="ic i-arrow-up"></i></li>
     <li class="down"><i class="ic i-arrow-down"></i></li>
     <li class="next pjax">
+        <a href="/2020/09/13/%E8%A7%A3%E5%86%B3Nginx%E9%87%8D%E5%90%AF%E6%97%B6%E6%8F%90%E7%A4%BAnginx-emerg-bind-to-0-0-0-0-80%E9%94%99%E8%AF%AF/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a>
     </li>
     <li class="percent"></li>
   </ul>
@@ -325,7 +350,7 @@
   </div>
 <script data-config type="text/javascript">
   var LOCAL = {
-    path: 'https://blog.wxl.pw/2020/09/13/%E6%9C%AC%E7%AB%99%E5%A3%B0%E6%98%8E/',
+    path: 'https://blog.wxl.pw/2020/09/13/Nginx-%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%97%A5%E5%BF%97%E9%85%8D%E7%BD%AE-%E2%80%93-%E8%A7%A3%E5%86%B3%E4%BD%BF%E7%94%A8CDN%E8%AE%B0%E5%BD%95%E7%9C%9F%E5%AE%9E%E7%94%A8%E6%88%B7IP%EF%BC%88%E5%8C%85%E6%8B%AC%E5%AE%9D%E5%A1%94%EF%BC%89/',
     favicon: {
       show: "（●´3｀●）やれやれだぜ",
       hide: "(´Д｀)大変だ！"
