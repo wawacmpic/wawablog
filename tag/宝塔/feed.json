@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "wawa • All posts by \"宝塔\" tag",
+    "description": "记录个人生活",
+    "home_page_url": "https://blog.wxl.pw",
+    "items": [
+        {
+            "id": "https://blog.wxl.pw/2020/09/13/%E5%AE%9D%E5%A1%94%E7%A0%B4%E8%A7%A3%E7%89%88/",
+            "url": "https://blog.wxl.pw/2020/09/13/%E5%AE%9D%E5%A1%94%E7%A0%B4%E8%A7%A3%E7%89%88/",
+            "title": "宝塔破解版",
+            "date_published": "2020-09-13T11:12:23.000Z",
+            "content_html": "<p>Centos 安装脚本 <strong>面板端口：8888</strong></p>\n<p><figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">yum install -y wget &amp;&amp; wget -O install.sh https:&#x2F;&#x2F;download.youko.me&#x2F;ltd&#x2F;install&#x2F;install_6.0.sh &amp;&amp; sh install.sh</span><br></pre></td></tr></table></figure></p>\n<p>试验性 Centos/Ubuntu/Debian 安装命令 独立运行环境（py3.7） 可能存在少量兼容性问题 不断优化中</p>\n<p><figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">curl -sSO https:&#x2F;&#x2F;download.youko.me&#x2F;ltd&#x2F;install&#x2F;install_panel.sh &amp;&amp; bash install_panel.sh</span><br></pre></td></tr></table></figure></p>\n<p>Ubuntu/Deepin 安装脚本</p>\n<p><figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">wget -O install.sh https:&#x2F;&#x2F;download.youko.me&#x2F;ltd&#x2F;install&#x2F;install-ubuntu_6.0.sh &amp;&amp; sudo bash install.sh</span><br></pre></td></tr></table></figure></p>\n<p>Debian 安装脚本</p>\n<p><figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">wget -O install.sh https:&#x2F;&#x2F;download.youko.me&#x2F;ltd&#x2F;install&#x2F;install-ubuntu_6.0.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure></p>\n<p>Fedora 安装脚本</p>\n<p><figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">wget -O install.sh https:&#x2F;&#x2F;download.youko.me&#x2F;ltd&#x2F;install&#x2F;install_6.0.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure></p>\n<p><strong>Linux 面板 7.4.5 升级命令（已安装面板或旧版本或免费版升级企业版）</strong></p>\n<p><figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">curl https:&#x2F;&#x2F;download.youko.me&#x2F;ltd&#x2F;install&#x2F;update6.sh|bash</span><br></pre></td></tr></table></figure></p>\n<p>Nginx/Apache 官方防火墙安装命令</p>\n<p><figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">Nginx直接面板安装防火墙使用 &#x2F; Apache先面板安装防火墙在使用bt命令20修复！</span><br></pre></td></tr></table></figure></p>\n",
+            "tags": [
+                "宝塔"
+            ]
+        }
+    ]
+}

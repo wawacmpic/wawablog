@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>wawa • Posts by &#34;计算机科学&#34; category</title>
+        <link>https://blog.wxl.pw</link>
+        <description>记录个人生活</description>
+        <language>zh-CN</language>
+        <pubDate>Fri, 18 Sep 2020 23:22:16 +0800</pubDate>
+        <lastBuildDate>Fri, 18 Sep 2020 23:22:16 +0800</lastBuildDate>
+        <category>关机</category>
+        <category>宝塔</category>
+        <item>
+            <guid isPermalink="true">https://blog.wxl.pw/2020/09/18/Win%E6%97%A0%E9%9C%80%E8%BD%AF%E4%BB%B6%E5%AE%9A%E6%97%B6%E5%85%B3%E6%9C%BA%E4%BB%A3%E7%A0%81/</guid>
+            <title>Win无需软件定时关机代码</title>
+            <link>https://blog.wxl.pw/2020/09/18/Win%E6%97%A0%E9%9C%80%E8%BD%AF%E4%BB%B6%E5%AE%9A%E6%97%B6%E5%85%B3%E6%9C%BA%E4%BB%A3%E7%A0%81/</link>
+            <category>关机</category>
+            <pubDate>Fri, 18 Sep 2020 23:22:16 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;大家平时都是如何将电脑设置为定时关机的呢？&lt;/p&gt;
+&lt;p&gt;至于为什么要设置定时关机，这就像设置闹钟一样，不同的人有不同的用途，不光是叫醒那么简单哦！&lt;/p&gt;
+&lt;p&gt;列如我们在上传文件，突然有点事情要出门一趟，但是又不清楚什么时候能回来，电脑这样一直开着也不是办法（耗电而且长时间待机对电脑也是有损坏的），计算好文件大概上传完成时间，这时候我们就设置一个定时关机岂不美滋滋！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;方法一：用命令设置&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;鼠标右击【开始菜单】选择【运行】或在键盘上按【Win+R】快捷键打开运行窗口。（如下图）&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/20200918232425.jpeg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;2. 输入：Shutdown -s -t 1200 后点击【确定】。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/20200918232557.jpeg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;划重点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#划重点&#34;&gt;#&lt;/a&gt; 划重点：&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;这里的 1200 表示 1200 秒后关机。如果你需要将电脑设置 10 分钟后关机，把 1200 改为 600 即可，这里的单位是以秒计算的。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;3. 设置成功。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/20200918232624.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;4. 如果想取消自动关机指令，只要在运行窗口中输入：shutdown -a 点击【确定】。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/20200918232642.jpeg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;5. 取消成功。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/20200918232657.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://blog.wxl.pw/2020/09/13/%E5%AE%9D%E5%A1%94%E7%A0%B4%E8%A7%A3%E7%89%88/</guid>
+            <title>宝塔破解版</title>
+            <link>https://blog.wxl.pw/2020/09/13/%E5%AE%9D%E5%A1%94%E7%A0%B4%E8%A7%A3%E7%89%88/</link>
+            <category>宝塔</category>
+            <pubDate>Sun, 13 Sep 2020 19:12:23 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;Centos 安装脚本 &lt;strong&gt;面板端口：8888&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;yum install -y wget &amp;amp;&amp;amp; wget -O install.sh https:&amp;#x2F;&amp;#x2F;download.youko.me&amp;#x2F;ltd&amp;#x2F;install&amp;#x2F;install_6.0.sh &amp;amp;&amp;amp; sh install.sh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;试验性 Centos/Ubuntu/Debian 安装命令 独立运行环境（py3.7） 可能存在少量兼容性问题 不断优化中&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;curl -sSO https:&amp;#x2F;&amp;#x2F;download.youko.me&amp;#x2F;ltd&amp;#x2F;install&amp;#x2F;install_panel.sh &amp;amp;&amp;amp; bash install_panel.sh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Ubuntu/Deepin 安装脚本&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wget -O install.sh https:&amp;#x2F;&amp;#x2F;download.youko.me&amp;#x2F;ltd&amp;#x2F;install&amp;#x2F;install-ubuntu_6.0.sh &amp;amp;&amp;amp; sudo bash install.sh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Debian 安装脚本&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wget -O install.sh https:&amp;#x2F;&amp;#x2F;download.youko.me&amp;#x2F;ltd&amp;#x2F;install&amp;#x2F;install-ubuntu_6.0.sh &amp;amp;&amp;amp; bash install.sh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Fedora 安装脚本&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;wget -O install.sh https:&amp;#x2F;&amp;#x2F;download.youko.me&amp;#x2F;ltd&amp;#x2F;install&amp;#x2F;install_6.0.sh &amp;amp;&amp;amp; bash install.sh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Linux 面板 7.4.5 升级命令（已安装面板或旧版本或免费版升级企业版）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;curl https:&amp;#x2F;&amp;#x2F;download.youko.me&amp;#x2F;ltd&amp;#x2F;install&amp;#x2F;update6.sh|bash&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Nginx/Apache 官方防火墙安装命令&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Nginx直接面板安装防火墙使用 &amp;#x2F; Apache先面板安装防火墙在使用bt命令20修复！&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
