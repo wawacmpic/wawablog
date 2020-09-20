@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.wxl.pw</id>
-    <title>wawa • Posts by &#34;关机&#34; tag</title>
+    <title>曹远繁,娃娃 • Posts by &#34;关机&#34; tag</title>
     <link href="https://blog.wxl.pw" />
     <updated>2020-09-18T15:22:16.000Z</updated>
     <category term="关机" />
     <category term="宝塔" />
+    <category term="网盘" />
     <entry>
         <id>https://blog.wxl.pw/2020/09/18/Win%E6%97%A0%E9%9C%80%E8%BD%AF%E4%BB%B6%E5%AE%9A%E6%97%B6%E5%85%B3%E6%9C%BA%E4%BB%A3%E7%A0%81/</id>
         <title>Win无需软件定时关机代码</title>

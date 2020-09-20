@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>wawa • Posts by &#34;关机&#34; tag</title>
+        <title>曹远繁,娃娃 • Posts by &#34;关机&#34; tag</title>
         <link>https://blog.wxl.pw</link>
         <description>记录个人生活</description>
         <language>zh-CN</language>
@@ -9,6 +9,7 @@
         <lastBuildDate>Fri, 18 Sep 2020 23:22:16 +0800</lastBuildDate>
         <category>关机</category>
         <category>宝塔</category>
+        <category>网盘</category>
         <item>
             <guid isPermalink="true">https://blog.wxl.pw/2020/09/18/Win%E6%97%A0%E9%9C%80%E8%BD%AF%E4%BB%B6%E5%AE%9A%E6%97%B6%E5%85%B3%E6%9C%BA%E4%BB%A3%E7%A0%81/</guid>
             <title>Win无需软件定时关机代码</title>
