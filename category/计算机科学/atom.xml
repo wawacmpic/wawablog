@@ -3,10 +3,49 @@
     <id>https://blog.wxl.pw</id>
     <title>曹远繁,娃娃 • Posts by &#34;计算机科学&#34; category</title>
     <link href="https://blog.wxl.pw" />
-    <updated>2020-09-20T04:26:21.000Z</updated>
+    <updated>2020-09-20T08:20:04.000Z</updated>
     <category term="关机" />
     <category term="宝塔" />
     <category term="网盘" />
+    <category term="nginx" />
+    <entry>
+        <id>https://blog.wxl.pw/2020/09/20/%E5%9C%A8%E5%AE%9D%E5%A1%94%E5%AE%89%E8%A3%85VERYNGINX-%E9%98%B2%E5%BE%A1CC%E6%94%BB%E5%87%BB/</id>
+        <title>在宝塔安装VERYNGINX 防御CC攻击</title>
+        <link rel="alternate" href="https://blog.wxl.pw/2020/09/20/%E5%9C%A8%E5%AE%9D%E5%A1%94%E5%AE%89%E8%A3%85VERYNGINX-%E9%98%B2%E5%BE%A1CC%E6%94%BB%E5%87%BB/"/>
+        <content type="html">&lt;p&gt;​	VeryNginx 是一个功能强大而对网站友好的 Nginx 扩展程序。&lt;/p&gt;
+&lt;p&gt;有的时候我们网站频繁遭受 CC 攻击，这导致我们很烦。&lt;/p&gt;
+&lt;p&gt;这里推荐一款免费的 nginx 扩展来防御 cc 攻击。&lt;/p&gt;
+&lt;p&gt;本文只介绍在宝塔面板下安装和使用，其它安装方法参考他的官方文档。&lt;/p&gt;
+&lt;h3 id=&#34;1-安装-nginx-openresty&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-安装-nginx-openresty&#34;&gt;#&lt;/a&gt; 1、安装 nginx openresty&lt;/h3&gt;
+&lt;p&gt;安装 nginx 的时候一定要选择 nginx openresty ，因为 verynginx 是基于 openresty 的扩展。&lt;/p&gt;
+&lt;p&gt;已安装其它版本 nginx 的可以选择切换版本。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdnjsqa.wawacm.com/20200920162046.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;2-下载verynginx代码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-下载verynginx代码&#34;&gt;#&lt;/a&gt; 2、下载 verynginx 代码&lt;/h4&gt;
+&lt;p&gt;去 github：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2FsZXhhemhvdS9WZXJ5Tmdpbng=&#34;&gt;https://github.com/alexazhou/VeryNginx&lt;/span&gt; 把 verynginx 代码下载下来，将 verynginx 目录上传到服务器 opt 目录下（这个根据自己喜好，可以上传到任意目录）&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdnjsqa.wawacm.com/20200920162055.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;3-修改nginx配置文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-修改nginx配置文件&#34;&gt;#&lt;/a&gt; 3、修改 nginx 配置文件&lt;/h4&gt;
+&lt;p&gt;软件商店找到 nginx》设置》配置修改，然后写入 in_external.conf 、in_http_block.conf 文件目录到下图所示位置。&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;include /opt/verynginx/nginx_conf/in_external.conf;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdnjsqa.wawacm.com/20200920162345.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;include /opt/verynginx/nginx_conf/in_http_block.conf;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdnjsqa.wawacm.com/20200920162408.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;点击保存即可。（注意：这两个 conf 文件目录一定要和你上传的 verynginx 目录对应）&lt;/p&gt;
+&lt;h4 id=&#34;4-修改站点-配置文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4-修改站点-配置文件&#34;&gt;#&lt;/a&gt; 4、修改站点 配置文件&lt;/h4&gt;
+&lt;p&gt;网站》你的站点》设置》配置文件，填写 in_server_block.conf 文件位置。&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;include /opt/verynginx/nginx_conf/in_server_block.conf;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdnjsqa.wawacm.com/20200920162104.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;保存后就基本完成了。&lt;/p&gt;
+&lt;p&gt;访问你的域名 /verynginx/index_zh.html 就可以进入 verynginx 管理界面了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;默认账号密码都是：verynginx&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdnjsqa.wawacm.com/20200920162113.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;然后就是根据自己网站特点，去添加一些拦截规则和浏览器验证等等，这里就不详细介绍了。&lt;/p&gt;
+&lt;p&gt;你还可以自己用 lua 去扩展更多功能，比如利用 ipset iptables 去自动拉黑 IP 等。&lt;/p&gt;
+&lt;p&gt;相对于宝塔的防火墙插件，宝塔使用可能更简单，但是 verynginx 更方便于自己扩展，能定制的策略更多。&lt;/p&gt;
+&lt;p&gt;注：宝塔 waf 与 verynginx 冲突，两者不能同时安装！&lt;/p&gt;
+</content>
+        <category term="nginx" />
+        <updated>2020-09-20T08:20:04.000Z</updated>
+    </entry>
     <entry>
         <id>https://blog.wxl.pw/2020/09/20/pandown%E6%9C%80%E6%96%B0%E7%A0%B4%E8%A7%A3%E7%89%88/</id>
         <title>pandown最新破解版</title>
