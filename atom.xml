@@ -3,11 +3,38 @@
     <id>https://blog.wxl.pw</id>
     <title>曹远繁,娃娃</title>
     <link href="https://blog.wxl.pw" />
-    <updated>2020-09-20T08:20:04.000Z</updated>
+    <updated>2020-09-28T04:41:18.000Z</updated>
     <category term="关机" />
     <category term="宝塔" />
     <category term="网盘" />
     <category term="nginx" />
+    <category term="微博" />
+    <entry>
+        <id>https://blog.wxl.pw/2020/09/28/%E7%94%A8%E5%BE%AE%E5%8D%9A%E5%9B%BE%E7%89%87%E5%8F%8D%E6%9F%A5%E4%B8%8A%E4%BC%A0%E8%80%85%E4%BF%A1%E6%81%AF/</id>
+        <title>用微博图片反查上传者信息</title>
+        <link rel="alternate" href="https://blog.wxl.pw/2020/09/28/%E7%94%A8%E5%BE%AE%E5%8D%9A%E5%9B%BE%E7%89%87%E5%8F%8D%E6%9F%A5%E4%B8%8A%E4%BC%A0%E8%80%85%E4%BF%A1%E6%81%AF/"/>
+        <content type="html">&lt;p&gt;&lt;img data-src=&#34;https://cdnjsqa.wawacm.com/20200928124200.jpeg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;其实微博每一种图片都包含了上传者的信息，只是大家平时都不会去观察或者不知道罢了，&lt;/p&gt;
+&lt;p&gt;我们经常会看见别的网站会有微博的外链缩略图。那么如何通过微博图片查找到其上传者呢？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;首先第一种方法：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;使用网站查询只要一张微博图片就可以帮你&lt;/p&gt;
+&lt;p&gt;查找出上传这张图的主人微博是多少，非常实用。&lt;/p&gt;
+&lt;p&gt;直达地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93YmltZy5odXl1YW5pbmcuY29tLyN3d3cuYWlzaG91aml6eS5jb20=&#34;&gt;https://wbimg.huyuaning.com/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第二种方法：手动查&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;通过新浪微博图片反查上传者信息其实很简单，以下图为例，我们首先复制其图片地址&lt;/p&gt;
+&lt;p&gt;“&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93eDIuc2luYWltZy5jbi9tdzEwMjQvZTNhZmJiNTZneTFnaGtrNG9yamFwajIwYWMwOGN3Zi5qcGclRTIlODAlOUQ=&#34;&gt;https://wx2.sinaimg.cn/mw1024/e3afbb56gy1ghkk4orjapj20ac08cwf.jpg”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;其中斜杠后的后 8 位数，就是红色字体就是识别代码，即为 “&lt;strong&gt;e3afbb56&lt;/strong&gt;” 这里是 16 进制的。&lt;/p&gt;
+&lt;p&gt;我们只需将其转化为 10 进制，再加上微博用户网址 “&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jb20vdS8lRTglQkQlQUMlRTUlOEMlOTYlRTQlQjglQkExMCVFOCVCRiU5QiVFNSU4OCVCNiVFNyU5QSU4NCVFNCVCQiVBMyVFNyVBMCU4MSVFMiU4MCU5RA==&#34;&gt;https://weibo.com/u/ 转化为 10 进制的代码”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;即可找到上传者。百度搜索 “16 进制转 10 进制计算器” 即可&lt;/p&gt;
+&lt;p&gt;这里大家可以使用此款工具：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90b29sLmx1L2hleGNvbnZlcnQv&#34;&gt;https://tool.lu/hexconvert/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;原来的 16 进制转成 10 进制：e3afbb56→3819944790&lt;/p&gt;
+&lt;p&gt;得出的微博地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jb20vdS8zODE5OTQ0Nzkw&#34;&gt;https://weibo.com/u/3819944790&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;补充一点：开头是 d8 或者 9d 之类的，需要使用 16 转 10，&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;如果开头是 005 或 006 的需要使用 62 位进制转 10 进制。&lt;/strong&gt;&lt;/p&gt;
+</content>
+        <category term="微博" />
+        <updated>2020-09-28T04:41:18.000Z</updated>
+    </entry>
     <entry>
         <id>https://blog.wxl.pw/2020/09/20/%E5%9C%A8%E5%AE%9D%E5%A1%94%E5%AE%89%E8%A3%85VERYNGINX-%E9%98%B2%E5%BE%A1CC%E6%94%BB%E5%87%BB/</id>
         <title>在宝塔安装VERYNGINX 防御CC攻击</title>
