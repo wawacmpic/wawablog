@@ -5,13 +5,168 @@
         <link>https://blog.wxl.pw</link>
         <description>记录个人生活</description>
         <language>zh-CN</language>
-        <pubDate>Mon, 28 Sep 2020 12:41:18 +0800</pubDate>
-        <lastBuildDate>Mon, 28 Sep 2020 12:41:18 +0800</lastBuildDate>
+        <pubDate>Sat, 10 Oct 2020 19:41:03 +0800</pubDate>
+        <lastBuildDate>Sat, 10 Oct 2020 19:41:03 +0800</lastBuildDate>
+        <category>重置</category>
         <category>关机</category>
-        <category>宝塔</category>
         <category>网盘</category>
         <category>nginx</category>
+        <category>宝塔</category>
         <category>微博</category>
+        <category>声音</category>
+        <category>网络</category>
+        <category>重装</category>
+        <item>
+            <guid isPermalink="true">https://blog.wxl.pw/2020/10/10/Win10%E6%80%8E%E4%B9%88%E8%BF%9B%E9%AB%98%E7%BA%A7%E6%A8%A1%E5%BC%8F%E9%87%8D%E7%BD%AE%E7%B3%BB%E7%BB%9F/</guid>
+            <title>Win10怎么进高级模式重置系统</title>
+            <link>https://blog.wxl.pw/2020/10/10/Win10%E6%80%8E%E4%B9%88%E8%BF%9B%E9%AB%98%E7%BA%A7%E6%A8%A1%E5%BC%8F%E9%87%8D%E7%BD%AE%E7%B3%BB%E7%BB%9F/</link>
+            <category>重置</category>
+            <pubDate>Sat, 10 Oct 2020 19:41:03 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;在您使用 win10 系统的时候，您可能遇到一些不可逆的错误消息，例如蓝屏，无法正常进入系统等...&lt;/p&gt;
+&lt;p&gt;这个时候就必须要恢复您的系统了，其实我是不想水文章的，可是还是有很多小伙伴问我怎么重置，一天重复 n 次这个内容确实有点吃不消，下面我来具体介绍一下恢复步骤：&lt;/p&gt;
+&lt;p&gt;建议！：在不能开机的时候使用本功能，若是可以开机进入系统，直接到 win10 的设置里面搜索重置即可！！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. 开机到转圈圈的这个界面，按住电源键强制重启，循环 3 次；&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U80114a1cf4eb415b9df4a615c185fbe2Q.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. 直到出现 “选择一个选项” 的界面 “，点击 “疑难解答”;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U3bcfa29cdf2540e4878b4262fd68a1138.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. 点击 “重置此电脑”;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/Ue40c0d894db344f5947e6b56f82f4a416.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. 点击 “保留我的文件” 或 “删除所有内容”(仅系统盘操作，不影响其他盘)；&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U6e7652794d9747f29e7225333ddcfc58p.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5. 电脑自动重启后，点击您的 “帐户名”;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/Uae81eab5cdac48049d753874a002ba2eW.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;6、输入帐户密码，然后点击 “继续”，没密码留空，点继续；&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U0d9c4916c1ae4d1d9caf955d75f3460fb.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;7、确认提示信息无误后，点击 “重置”;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U6c61fd39af9d46aaa62ec5125f5722fcR.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;8. 这样就完成啦，是不是很简单，希望能帮到你&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/Uba76db8404a24f3ab92c66afcc66fa95W.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/Uf2d665f3ccf7442ea1f877302ccf7f7aF.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://blog.wxl.pw/2020/10/10/%E7%94%B5%E8%84%91%E6%B2%A1%E6%9C%89%E5%A3%B0%E9%9F%B3%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
+            <title>电脑没有声音解决方案</title>
+            <link>https://blog.wxl.pw/2020/10/10/%E7%94%B5%E8%84%91%E6%B2%A1%E6%9C%89%E5%A3%B0%E9%9F%B3%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
+            <category>声音</category>
+            <pubDate>Sat, 10 Oct 2020 19:39:25 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;电脑没有声音最常见的问题在于&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/Uec4256d264e34cc48b99124154f2442fF.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;1. 系统组件没有打开&lt;br /&gt;
+ 2. 没有安装对应的驱动程序&lt;/p&gt;
+&lt;p&gt;（win10)&lt;/p&gt;
+&lt;p&gt;第一步，请右键右下角的声音图标，选择声音疑难解答，根据提示操作&lt;/p&gt;
+&lt;p&gt;操作完成后，请打开您的杀毒软件，把启动项的声卡驱动给启用一下，并且重启&lt;/p&gt;
+&lt;p&gt;若还没有声音....&lt;/p&gt;
+&lt;p&gt;第二步&lt;/p&gt;
+&lt;p&gt;建议打开驱动精灵，找到您的声卡驱动，点更新或者重新安装&lt;/p&gt;
+&lt;p&gt;第三步&lt;/p&gt;
+&lt;p&gt;打开您的声卡驱动选择输出的设备&lt;/p&gt;
+&lt;p&gt;第四步&lt;/p&gt;
+&lt;p&gt;右键此电脑 / 我的电脑，选择管理 - 打开设备管理 - 选择声音输入和输出，右键该驱动，选择回退驱动试试。&lt;/p&gt;
+&lt;p&gt;若还是没有声音，建议您到您电脑官网下载对应驱动，并且排除外接设备或者硬件问题&lt;/p&gt;
+&lt;p&gt;那如果是您插上了耳机有声音，但是其他的外接扬声器没有声音，应该是您声卡的配置错误或者该硬件问题，建议您拿此硬件到其他设备尝试。&lt;/p&gt;
+&lt;p&gt;那如果重装了，您插上了耳机有声音，但是其他的外接扬声器没有声音，应该是您硬件问题，建议您拿此硬件到其他设备尝试。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://blog.wxl.pw/2020/10/10/%E7%94%B5%E8%84%91%E6%B2%A1%E7%BD%91%E7%BB%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
+            <title>电脑没网络解决方案</title>
+            <link>https://blog.wxl.pw/2020/10/10/%E7%94%B5%E8%84%91%E6%B2%A1%E7%BD%91%E7%BB%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
+            <category>网络</category>
+            <pubDate>Sat, 10 Oct 2020 19:37:32 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;电脑没网络？电脑没网络请提供以下回答！&lt;br /&gt;
+请务必跟进回答。&lt;br /&gt;
+1. 请问您是路由器还是直连运营商网线宽带拨号？&lt;br /&gt;
+2. 如上题，如果您是路由器，请问您手机连接同电脑路由器能上网吗？&lt;br /&gt;
+（若是宽带拨号则忽略 2）&lt;br /&gt;
+3. 您是 win 几的系统呢？&lt;br /&gt;
+4. 请您打开您电脑的杀毒软件，找到该杀毒软件的断网修复，若是修复失败，请提供相关截图。&lt;br /&gt;
+5. 在左下角开始菜单栏里面搜索 cmd，请（一定要以管理员身份运行（如果没找到管理员选项，请右键）），&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/Ue6e7153dd4164fc8b41fc383c252ee57z.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;打开管理员的 CMD 后，请输入&lt;br /&gt;
+ netsh winsock reset&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/Ue8cd61bd3b804037a2a8fd40b26f3b5aC.jpg&#34; alt=&#34;img&#34; /&gt;&lt;br /&gt;
+（注意符号注意空格，本条命令的绝对可以执行的，若是您无法执行，一定是您未按说明处理）&lt;br /&gt;
+输入好以上命令后，请按回车等待，并且接着输入&lt;br /&gt;
+ netsh int ip reset c： \ resetlog.txt&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U7e0f05848c7b48f3ab50d801202e605cV.jpg&#34; alt=&#34;img&#34; /&gt;&lt;br /&gt;
+ 输入完成后按回车，等待，并且接着输入&lt;br /&gt;
+ sfc /scannow&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U0c1fab96e88448ce9b28476225ac8995H.jpg&#34; alt=&#34;img&#34; /&gt;&lt;br /&gt;
+ 输入完成后，等进度条百分百，并且如果您是 win10 系统，请右键右下方的网络图标选中疑难解答，若非，请直接重启&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U1d739ae7043a4258afa9f974220b8641F.jpg&#34; alt=&#34;img&#34; /&gt;&lt;br /&gt;
+6. 请提供本地连接 - 详细信息的截图（不懂打开本地连接，请百度）&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/Uca7b25e91e3644519c8cc990cd894499J.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U0f9657175ff24114bd724f5eec5f7f33Y.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;7. 请下载驱动精灵网卡版，然后重装网卡驱动&lt;br /&gt;
+ 8. 把本地连接 - 属性 - ipv4 - 设为自动获取 ip 和自动获取 dns&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U36a95d91aac64dc88e2f2f958238c25eC.jpg&#34; alt=&#34;img&#34; /&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/Ua12e86a04fbb4ebabb9af935b4b6f1a74.jpg&#34; alt=&#34;img&#34; /&gt;&lt;br /&gt;
+9. 重启路由器&lt;br /&gt;
+ 10. 笔记本电脑请按下 fn + 飞行模式图标或者 fn + 网络图标，看是否有网络，或者看您笔记本有没有物理按键禁用了网络。&lt;br /&gt;
+如上解决方案，能解决百分之 99 的系统网络问题，若还是不行，可以尝试重装系统亦或者联系解决&lt;br /&gt;
+如果您要联系解决，请务必跟进 1，2，3，4，6 发到群（325100701）里或者到问答社区提交问题 (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3FhLndhd2FjbS5jb20=&#34;&gt;qa.wawacm.com&lt;/span&gt;)!&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://blog.wxl.pw/2020/10/10/%E7%94%B5%E8%84%91%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E6%95%99%E7%A8%8B/</guid>
+            <title>电脑重装系统教程</title>
+            <link>https://blog.wxl.pw/2020/10/10/%E7%94%B5%E8%84%91%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E6%95%99%E7%A8%8B/</link>
+            <category>重装</category>
+            <pubDate>Sat, 10 Oct 2020 19:35:46 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;重装的前提：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. 有一台可用的电脑&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. 有一个 8G 以上的 U 盘&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;重装系统分如下几步：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. 下载安装 PE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. 下载系统复制到 U 盘&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. 进入 PE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. 分区（可选）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5. 重装系统&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. 下载安装 PE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我们这边使用的 PE 软件是大白菜，百度搜索大白菜 PE 重装，并且下载安装到电脑上&lt;/p&gt;
+&lt;p&gt;将您的 U 盘插入电脑&lt;/p&gt;
+&lt;p&gt;开始制作 PE&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U72a8d5a1cbea4f0981939463b08cf7f0x.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. 下载系统复制到 U 盘&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U51bf6001ee644becb1f4a900cb122f5by.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;打开百度，搜索：“MSDN 我告诉你”，进到 MSDN 我告诉你官网，选择左边的操作系统，选择您想要重装的操作系统，这边以 WIN10 为例&lt;/p&gt;
+&lt;p&gt;选中对应的操作系统后，选择对应的版本，点右边的详细信息，复制下面的 ea2k 链接到迅雷下载，下载完成后，把系统复制到 U 盘即可。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. 进入 PE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;将 U 盘插入需要重装的电脑上&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U1ab1aa4c43474493a4afead945802e40E.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;根据对应的电脑型号，选择对应的按键；&lt;/p&gt;
+&lt;p&gt;例如我的电脑是联想笔记本，我就选择按 F12&lt;/p&gt;
+&lt;p&gt;开机连续按 F12，进到这个画面&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U0e074de2d6d64ff5a91581d1be573883M.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;选择对应的 U 盘，回车即可，（若您无法进入到快捷热键启动界面，请百度您的主板型号 + 怎么设置 U 盘第一启动项）&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U2e6dd56589ba45838f20bed6652485f8k.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;默认情况下选择 WIN8PE 回车&lt;/p&gt;
+&lt;p&gt;（若无法进入 WIN8PE，请选择兼容 PE）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. 分区（可选）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;这一步是可选操作，若您不想分区，直接跳到第 5 步操作&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;进入到 PE 后，我们选择桌面的分区工具&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/Uef173960936b4c6e8a15ecc948520e073.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;打开分区工具后，我们选择对应的硬盘，并且单击上方的快速分区&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/Uf626b260451040e8b8a3af0ef8bc5ab0Z.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/Ua7e8623405534b3bb276ff0c341d03acc.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U38d056847f574c48bed962629f1a931cu.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这样就分区完成啦&lt;/p&gt;
+&lt;p&gt;分区完成后建议重启，重新进入 PE&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5. 重装系统&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;默认情况下进 PE 后会弹出大白菜 PE 装机工具，若没有弹出，请在桌面打开此工具&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U3830beac33a84193a5c4d73a338d29b0a.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;选择浏览，找到刚才复制到 U 盘的系统文件&lt;/p&gt;
+&lt;p&gt;选中 C 盘&lt;/p&gt;
+&lt;p&gt;单击确定&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U3c75f5853aff4dbd83e6f3d23cb8b304U.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;请务必确认增加引导和格式化分区已勾选了&lt;/p&gt;
+&lt;p&gt;请一定要打勾&lt;/p&gt;
+&lt;p&gt;然后点确定即可&lt;/p&gt;
+&lt;p&gt;---------------------------------------------------------------&lt;/p&gt;
+&lt;p&gt;到此重装就完成啦！！&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://blog.wxl.pw/2020/09/28/%E7%94%A8%E5%BE%AE%E5%8D%9A%E5%9B%BE%E7%89%87%E5%8F%8D%E6%9F%A5%E4%B8%8A%E4%BC%A0%E8%80%85%E4%BF%A1%E6%81%AF/</guid>
             <title>用微博图片反查上传者信息</title>
@@ -126,32 +281,17 @@
             <title>WIN10系统下载地址</title>
             <link>https://blog.wxl.pw/2020/09/17/WIN10%E7%B3%BB%E7%BB%9F%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80/</link>
             <pubDate>Thu, 17 Sep 2020 15:02:28 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;2004版本&#34;&gt;&lt;a href=&#34;#2004版本&#34; class=&#34;headerlink&#34; title=&#34;2004版本&#34;&gt;&lt;/a&gt;2004版本&lt;/h1&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption&gt;&lt;span&gt;10 (business edition), version 2004 (updated Sep 2020) (x64) - DVD (Chinese-Simplified)&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;ed2k:&amp;#x2F;&amp;#x2F;|file|cn_windows_10_business_editions_version_2004_updated_sep_2020_x64_dvd_7134ba4b.iso|5313628160|7CF0E7C3324B4209663B8B971A5ACEF2|&amp;#x2F;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-
-
-&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption&gt;&lt;span&gt;10 (business edition), version 2004 (updated Sep 2020) (x86) - DVD (Chinese-Simplified)&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;ed2k:&amp;#x2F;&amp;#x2F;|file|cn_windows_10_business_editions_version_2004_updated_sep_2020_x86_dvd_31186d54.iso|3815186432|AD69BE7D54BA87FCDADBDF5054249094|&amp;#x2F;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-
-
-&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption&gt;&lt;span&gt;10 (consumer edition), version 2004 (updated Sep 2020) (x64) - DVD (Chinese-Simplified)&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;ed2k:&amp;#x2F;&amp;#x2F;|file|cn_windows_10_consumer_editions_version_2004_updated_sep_2020_x64_dvd_049d70ee.iso|5424910336|9100F2CD41FED19B3314FFCF182DF026|&amp;#x2F;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-
-
-&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption&gt;&lt;span&gt;10 (consumer edition), version 2004 (updated Sep 2020) (x86) - DVD (Chinese-Simplified)&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;ed2k:&amp;#x2F;&amp;#x2F;|file|cn_windows_10_consumer_editions_version_2004_updated_sep_2020_x86_dvd_8a8fe8c0.iso|3893041152|B6C95CA453EE875C0C4A6F19125FC5D2|&amp;#x2F;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-
-
-&lt;h1 id=&#34;1909版本&#34;&gt;&lt;a href=&#34;#1909版本&#34; class=&#34;headerlink&#34; title=&#34;1909版本&#34;&gt;&lt;/a&gt;1909版本&lt;/h1&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption&gt;&lt;span&gt;10 (business edition), Version 1909 (Updated April 2020) (x64) - DVD (Chinese-Simplified)&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;magnet:?xt&amp;#x3D;urn:btih:CACC1E9EEC070BE56F939863E189EAE3116F98E4&amp;amp;dn&amp;#x3D;cn_windows_10_business_editions_version_1909_updated_april_2020_x64_dvd_5d3fcf2e.iso&amp;amp;xl&amp;#x3D;5420953600&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption&gt;&lt;span&gt;10 (business edition), Version 1909 (Updated April 2020) (x86) - DVD (Chinese-Simplified)&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;magnet:?xt&amp;#x3D;urn:btih:62228A9B3D6A0642449525DABCA0035F37E959E9&amp;amp;dn&amp;#x3D;cn_windows_10_business_editions_version_1909_updated_april_2020_x86_dvd_20841959.iso&amp;amp;xl&amp;#x3D;3923351552&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption&gt;&lt;span&gt;10 (consumer edition), Version 1909 (Updated April 2020) (x64) - DVD (Chinese-Simplified)&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;magnet:?xt&amp;#x3D;urn:btih:3930A26F87080C3996AF0C67CAB04A02739EE006&amp;amp;dn&amp;#x3D;cn_windows_10_consumer_editions_version_1909_updated_april_2020_x64_dvd_d4f1cee8.iso&amp;amp;xl&amp;#x3D;5536696320&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption&gt;&lt;span&gt;10 (consumer edition), Version 1909 (Updated April 2020) (x86) - DVD (Chinese-Simplified)&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;magnet:?xt&amp;#x3D;urn:btih:C23F238C81BAB1444646A37018031DFEDB0CA65D&amp;amp;dn&amp;#x3D;cn_windows_10_consumer_editions_version_1909_updated_april_2020_x86_dvd_1a597dcc.iso&amp;amp;xl&amp;#x3D;4001820672&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-
-&lt;p&gt;请使用&lt;strong&gt;迅雷&lt;/strong&gt;下载，并且，请&lt;strong&gt;关闭PE的赞助&lt;/strong&gt;模式，系统全部是官方纯净版本，若安装后发现，系统有捆绑软件，一定是PE安装工具所为！&lt;/p&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;2004版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2004版本&#34;&gt;#&lt;/a&gt; 2004 版本&lt;/h1&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption&gt;&lt;span&gt;10 (business edition), version 2004 (updated Sep 2020) (x64) - DVD (Chinese-Simplified)&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;ed2k:&amp;#x2F;&amp;#x2F;|file|cn_windows_10_business_editions_version_2004_updated_sep_2020_x64_dvd_7134ba4b.iso|5313628160|7CF0E7C3324B4209663B8B971A5ACEF2|&amp;#x2F;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption&gt;&lt;span&gt;10 (business edition), version 2004 (updated Sep 2020) (x86) - DVD (Chinese-Simplified)&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;ed2k:&amp;#x2F;&amp;#x2F;|file|cn_windows_10_business_editions_version_2004_updated_sep_2020_x86_dvd_31186d54.iso|3815186432|AD69BE7D54BA87FCDADBDF5054249094|&amp;#x2F;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption&gt;&lt;span&gt;10 (consumer edition), version 2004 (updated Sep 2020) (x64) - DVD (Chinese-Simplified)&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;ed2k:&amp;#x2F;&amp;#x2F;|file|cn_windows_10_consumer_editions_version_2004_updated_sep_2020_x64_dvd_049d70ee.iso|5424910336|9100F2CD41FED19B3314FFCF182DF026|&amp;#x2F;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption&gt;&lt;span&gt;10 (consumer edition), version 2004 (updated Sep 2020) (x86) - DVD (Chinese-Simplified)&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;ed2k:&amp;#x2F;&amp;#x2F;|file|cn_windows_10_consumer_editions_version_2004_updated_sep_2020_x86_dvd_8a8fe8c0.iso|3893041152|B6C95CA453EE875C0C4A6F19125FC5D2|&amp;#x2F;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h1 id=&#34;1909版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1909版本&#34;&gt;#&lt;/a&gt; 1909 版本&lt;/h1&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption&gt;&lt;span&gt;10 (business edition), Version 1909 (Updated April 2020) (x64) - DVD (Chinese-Simplified)&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;magnet:?xt&amp;#x3D;urn:btih:CACC1E9EEC070BE56F939863E189EAE3116F98E4&amp;amp;dn&amp;#x3D;cn_windows_10_business_editions_version_1909_updated_april_2020_x64_dvd_5d3fcf2e.iso&amp;amp;xl&amp;#x3D;5420953600&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption&gt;&lt;span&gt;10 (business edition), Version 1909 (Updated April 2020) (x86) - DVD (Chinese-Simplified)&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;magnet:?xt&amp;#x3D;urn:btih:62228A9B3D6A0642449525DABCA0035F37E959E9&amp;amp;dn&amp;#x3D;cn_windows_10_business_editions_version_1909_updated_april_2020_x86_dvd_20841959.iso&amp;amp;xl&amp;#x3D;3923351552&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption&gt;&lt;span&gt;10 (consumer edition), Version 1909 (Updated April 2020) (x64) - DVD (Chinese-Simplified)&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;magnet:?xt&amp;#x3D;urn:btih:3930A26F87080C3996AF0C67CAB04A02739EE006&amp;amp;dn&amp;#x3D;cn_windows_10_consumer_editions_version_1909_updated_april_2020_x64_dvd_d4f1cee8.iso&amp;amp;xl&amp;#x3D;5536696320&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption&gt;&lt;span&gt;10 (consumer edition), Version 1909 (Updated April 2020) (x86) - DVD (Chinese-Simplified)&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;magnet:?xt&amp;#x3D;urn:btih:C23F238C81BAB1444646A37018031DFEDB0CA65D&amp;amp;dn&amp;#x3D;cn_windows_10_consumer_editions_version_1909_updated_april_2020_x86_dvd_1a597dcc.iso&amp;amp;xl&amp;#x3D;4001820672&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;请使用&lt;strong&gt;迅雷&lt;/strong&gt;下载，并且，请&lt;strong&gt;关闭 PE 的赞助&lt;/strong&gt;模式，系统全部是官方纯净版本，若安装后发现，系统有捆绑软件，一定是 PE 安装工具所为！&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -159,14 +299,13 @@
             <title>nginx提示[emerg] bind() to 0.0.0.0:80</title>
             <link>https://blog.wxl.pw/2020/09/13/nginx%E6%8F%90%E7%A4%BA-emerg-bind-to-0-0-0-0-80/</link>
             <pubDate>Sun, 13 Sep 2020 21:47:01 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;Nginx是一款轻量级的Web服务器，特点是占有内存少，并发能力强，因而使用比较广泛，蜗牛今天在一个VPS上重启Nginx时提示“nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)”错误。那么如何解决Nginx重启时提示“nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)”错误？&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/20200913214015.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;首先我们要弄清楚错误的原因是什么？娃娃百度了下原因，此错误很指的是80端口被程序占用了。那么解决方法就简单了，强制关闭端口的占用就可以了，一个简单的命令就解决了。&lt;/p&gt;
-&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo fuser -k 80&amp;#x2F;tcp &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;使用上面命令后，再重启Nginx就正常了。&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;Nginx 是一款轻量级的 Web 服务器，特点是占有内存少，并发能力强，因而使用比较广泛，蜗牛今天在一个 VPS 上重启 Nginx 时提示 “nginx: [emerg] bind () to 0.0.0.0:80 failed (98: Address already in use)” 错误。那么如何解决 Nginx 重启时提示 “nginx: [emerg] bind () to 0.0.0.0:80 failed (98: Address already in use)” 错误？&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/20200913214015.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;首先我们要弄清楚错误的原因是什么？娃娃百度了下原因，此错误很指的是 80 端口被程序占用了。那么解决方法就简单了，强制关闭端口的占用就可以了，一个简单的命令就解决了。&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sudo fuser -k 80&amp;#x2F;tcp &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;使用上面命令后，再重启 Nginx 就正常了。&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -174,37 +313,29 @@
             <title>Nginx 服务器日志配置 – 解决使用CDN记录真实用户IP（包括宝塔）</title>
             <link>https://blog.wxl.pw/2020/09/13/Nginx-%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%97%A5%E5%BF%97%E9%85%8D%E7%BD%AE-%E2%80%93-%E8%A7%A3%E5%86%B3%E4%BD%BF%E7%94%A8CDN%E8%AE%B0%E5%BD%95%E7%9C%9F%E5%AE%9E%E7%94%A8%E6%88%B7IP%EF%BC%88%E5%8C%85%E6%8B%AC%E5%AE%9D%E5%A1%94%EF%BC%89/</link>
             <pubDate>Sun, 13 Sep 2020 19:41:29 +0800</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;修改的配置文件位置&#34;&gt;&lt;a href=&#34;#修改的配置文件位置&#34; class=&#34;headerlink&#34; title=&#34;修改的配置文件位置&#34;&gt;&lt;/a&gt;修改的配置文件位置&lt;/h2&gt;&lt;p&gt;该怎么改网上的教程已经很多，但是到底在哪个文件的什么地方修改，如何生效这才是根本问题。&lt;/p&gt;
-&lt;p&gt;我们需要修改是的&lt;code&gt;nginx.conf&lt;/code&gt; 根配置文件&lt;/p&gt;
-&lt;p&gt;使用lnmp的服务器一般配置文件在：&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;/usr/local/nginx/conf/nginx.conf&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;，宝塔的配置文件我发现有两个地方有&lt;code&gt;nginx.conf&lt;/code&gt;配置文件：&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;/www/server/nginx/conf/nginx.conf&lt;span class=&#34;string&#34;&gt;`，`&lt;/span&gt;/www/server/nginx/src/conf/nginx.conf&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
+            <description><![CDATA[ &lt;h2 id=&#34;修改的配置文件位置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#修改的配置文件位置&#34;&gt;#&lt;/a&gt; 修改的配置文件位置&lt;/h2&gt;
+&lt;p&gt;该怎么改网上的教程已经很多，但是到底在哪个文件的什么地方修改，如何生效这才是根本问题。&lt;/p&gt;
+&lt;p&gt;我们需要修改是的 &lt;code&gt;nginx.conf&lt;/code&gt;  根配置文件&lt;/p&gt;
+&lt;p&gt;使用 lnmp 的服务器一般配置文件在：&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;/usr/local/nginx/conf/nginx.conf&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;，宝塔的配置文件我发现有两个地方有 &lt;code&gt;nginx.conf&lt;/code&gt;  配置文件：&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;/www/server/nginx/conf/nginx.conf&lt;span class=&#34;string&#34;&gt;`，`&lt;/span&gt;/www/server/nginx/src/conf/nginx.conf&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;。有效的配置文件是：&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;/www/server/nginx/conf/nginx.conf&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
+&lt;p&gt;&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;/www/server/nginx/conf/nginx.conf&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;在以下位置添加修改的配置：&lt;/p&gt;
-&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9keyiv7j30ke0hu41a.jpg&#34; alt=&#34;img&#34; style=&#34;zoom:200%;&#34; /&gt;
-
-
-
-&lt;p&gt;其中需要注意的是&lt;code&gt;log_format main&lt;/code&gt;，这里的&lt;code&gt;main&lt;/code&gt;，需要在vhost中各站点的日志配置的地方要带上，表示使用这个配置，如图：&lt;/p&gt;
-&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9kn6bc6j30ji0dj0ts.jpg&#34; alt=&#34;img&#34; style=&#34;zoom:150%;&#34; /&gt;
-
+&lt;p&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL3dhd2FjbXBpYy9waWMvd2F3YWNkbi8wMDY2M2NvRWx5MWdpcDlrZXlpdjdqMzBrZTBodTQxYS5qcGc=&#34;&gt;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9keyiv7j30ke0hu41a.jpg&lt;/span&gt;&amp;quot; alt=&amp;quot;img&amp;quot; style=&amp;quot;zoom:200%;&amp;quot; /&amp;gt;&lt;/p&gt;
+&lt;p&gt;其中需要注意的是 &lt;code&gt;log_format main&lt;/code&gt; ，这里的 &lt;code&gt;main&lt;/code&gt; ，需要在 vhost 中各站点的日志配置的地方要带上，表示使用这个配置，如图：&lt;/p&gt;
+&lt;p&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL3dhd2FjbXBpYy9waWMvd2F3YWNkbi8wMDY2M2NvRWx5MWdpcDlrbjZiYzZqMzBqaTBkajB0cy5qcGc=&#34;&gt;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9kn6bc6j30ji0dj0ts.jpg&lt;/span&gt;&amp;quot; alt=&amp;quot;img&amp;quot; style=&amp;quot;zoom:150%;&amp;quot; /&amp;gt;&lt;/p&gt;
 &lt;p&gt;修改以上两个位置即可让配置生效。&lt;/p&gt;
-&lt;h2 id=&#34;参数配置&#34;&gt;&lt;a href=&#34;#参数配置&#34; class=&#34;headerlink&#34; title=&#34;参数配置&#34;&gt;&lt;/a&gt;参数配置&lt;/h2&gt;&lt;p&gt;通过抓包可以看到，cdn节点在溯源请求服务器地址的时候会将用户客户端的ip带上，以&lt;code&gt;X-Forwarded-For&lt;/code&gt;，&lt;code&gt;CF-Connecting-IP&lt;/code&gt;两个参数的形式，如图：&lt;/p&gt;
-&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9kwruy3j30tx0c7dhf.jpg&#34; alt=&#34;img&#34;  /&gt;
-
-
-
-&lt;p&gt;如果客户端加一个&lt;code&gt;x-forwarded-for&lt;/code&gt;参数来尝试篡改，实际上该参数会有两个ip，后面的一个ip永远是真实ip，前面是伪造的：“8.8.8.8,163.160.73.253”&lt;/p&gt;
-&lt;p&gt;所以在配置日志参数时，可以将&lt;code&gt;X-Forwarded-For&lt;/code&gt;参数的值放到第一位，nginx模块中的变量为&lt;code&gt;$http_x_forwarded_for&lt;/code&gt;，所以最终的格式为以下，其中保留了原始的&lt;code&gt;$remote_addr&lt;/code&gt;，否则真实ip请求网站无法获取ip。&lt;/p&gt;
-&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;log_format  main  &lt;span class=&#34;string&#34;&gt;&amp;#x27;&amp;quot;$http_x_forwarded_for&amp;quot;-$remote_addr - $remote_user [$time_local] &amp;quot;$request&amp;quot; &amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                     &lt;span class=&#34;string&#34;&gt;&amp;#x27;$status $body_bytes_sent &amp;quot;$http_referer&amp;quot; &amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                     &lt;span class=&#34;string&#34;&gt;&amp;#x27;&amp;quot;$http_user_agent&amp;quot; &amp;quot;$http_x_forwarded_for&amp;quot;&amp;#x27;&lt;/span&gt;; &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;综合以上的配置，最终日志格式完美记录真实ip与cdn节点的ip：&lt;/p&gt;
-&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9l248uzj30lk07ijst.jpg&#34; alt=&#34;img&#34; style=&#34;zoom:150%;&#34; /&gt; ]]></description>
+&lt;h2 id=&#34;参数配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#参数配置&#34;&gt;#&lt;/a&gt; 参数配置&lt;/h2&gt;
+&lt;p&gt;通过抓包可以看到，cdn 节点在溯源请求服务器地址的时候会将用户客户端的 ip 带上，以 &lt;code&gt;X-Forwarded-For&lt;/code&gt; ， &lt;code&gt;CF-Connecting-IP&lt;/code&gt;  两个参数的形式，如图：&lt;/p&gt;
+&lt;p&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL3dhd2FjbXBpYy9waWMvd2F3YWNkbi8wMDY2M2NvRWx5MWdpcDlrd3J1eTNqMzB0eDBjN2RoZi5qcGc=&#34;&gt;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9kwruy3j30tx0c7dhf.jpg&lt;/span&gt;&amp;quot; alt=&amp;quot;img&amp;quot;  /&amp;gt;&lt;/p&gt;
+&lt;p&gt;如果客户端加一个 &lt;code&gt;x-forwarded-for&lt;/code&gt;  参数来尝试篡改，实际上该参数会有两个 ip，后面的一个 ip 永远是真实 ip，前面是伪造的：“8.8.8.8,163.160.73.253”&lt;/p&gt;
+&lt;p&gt;所以在配置日志参数时，可以将 &lt;code&gt;X-Forwarded-For&lt;/code&gt;  参数的值放到第一位，nginx 模块中的变量为 &lt;code&gt;$http_x_forwarded_for&lt;/code&gt; ，所以最终的格式为以下，其中保留了原始的 &lt;code&gt;$remote_addr&lt;/code&gt; ，否则真实 ip 请求网站无法获取 ip。&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight js&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;log_format  main  &lt;span class=&#34;string&#34;&gt;&amp;#x27;&amp;quot;$http_x_forwarded_for&amp;quot;-$remote_addr - $remote_user [$time_local] &amp;quot;$request&amp;quot; &amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                     &lt;span class=&#34;string&#34;&gt;&amp;#x27;$status $body_bytes_sent &amp;quot;$http_referer&amp;quot; &amp;#x27;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;                     &lt;span class=&#34;string&#34;&gt;&amp;#x27;&amp;quot;$http_user_agent&amp;quot; &amp;quot;$http_x_forwarded_for&amp;quot;&amp;#x27;&lt;/span&gt;; &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;综合以上的配置，最终日志格式完美记录真实 ip 与 cdn 节点的 ip：&lt;/p&gt;
+&lt;p&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL3dhd2FjbXBpYy9waWMvd2F3YWNkbi8wMDY2M2NvRWx5MWdpcDlsMjQ4dXpqMzBsazA3aWpzdC5qcGc=&#34;&gt;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/00663coEly1gip9l248uzj30lk07ijst.jpg&lt;/span&gt;&amp;quot; alt=&amp;quot;img&amp;quot; style=&amp;quot;zoom:150%;&amp;quot; /&amp;gt;&lt;/p&gt;
+ ]]></description>
         </item>
         <item>
             <guid isPermalink="true">https://blog.wxl.pw/2020/09/13/%E5%AE%9D%E5%A1%94%E7%A0%B4%E8%A7%A3%E7%89%88/</guid>
@@ -233,19 +364,23 @@
             <title>分享几个提高效率的网站/软件</title>
             <link>https://blog.wxl.pw/2020/09/13/%E5%88%86%E4%BA%AB%E5%87%A0%E4%B8%AA%E6%8F%90%E9%AB%98%E6%95%88%E7%8E%87%E7%9A%84%E7%BD%91%E7%AB%99-%E8%BD%AF%E4%BB%B6/</link>
             <pubDate>Sun, 13 Sep 2020 18:30:12 +0800</pubDate>
-            <description><![CDATA[ &lt;h4 id=&#34;实用压缩工具docsmall&#34;&gt;&lt;a href=&#34;#实用压缩工具docsmall&#34; class=&#34;headerlink&#34; title=&#34;实用压缩工具docsmall&#34;&gt;&lt;/a&gt;实用压缩工具docsmall&lt;/h4&gt;&lt;p&gt;网址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzbWFsbC5jb20v&#34;&gt;https://docsmall.com/&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;安利给经常需要压缩图片、GIF、PDF文件的小伙伴。&lt;/p&gt;
-&lt;p&gt;除了我提到的压缩功能，网站还支持PDF合并和分割。而且网站做的也很简单美观，体验感很棒！&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/20200912200457.jpg&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
-&lt;h4 id=&#34;在线绘图神器GitMind&#34;&gt;&lt;a href=&#34;#在线绘图神器GitMind&#34; class=&#34;headerlink&#34; title=&#34;在线绘图神器GitMind&#34;&gt;&lt;/a&gt;在线绘图神器GitMind&lt;/h4&gt;&lt;p&gt;网址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRtaW5kLmNuLw==&#34;&gt;https://gitmind.cn/&lt;/span&gt;&lt;/p&gt;
+            <description><![CDATA[ &lt;h4 id=&#34;实用压缩工具docsmall&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实用压缩工具docsmall&#34;&gt;#&lt;/a&gt; 实用压缩工具 docsmall&lt;/h4&gt;
+&lt;p&gt;网址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzbWFsbC5jb20v&#34;&gt;https://docsmall.com/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;安利给经常需要压缩图片、GIF、PDF 文件的小伙伴。&lt;/p&gt;
+&lt;p&gt;除了我提到的压缩功能，网站还支持 PDF 合并和分割。而且网站做的也很简单美观，体验感很棒！&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/20200912200457.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;在线绘图神器gitmind&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#在线绘图神器gitmind&#34;&gt;#&lt;/a&gt; 在线绘图神器 GitMind&lt;/h4&gt;
+&lt;p&gt;网址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRtaW5kLmNuLw==&#34;&gt;https://gitmind.cn/&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;免费画图工具，支持流程图、思维导图、原型图、UML、网络拓扑图、组织结构图等，所有功能都是免费的福利！&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/20200912200521.jpg&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
-&lt;h4 id=&#34;平面设计作图神器：创客贴&#34;&gt;&lt;a href=&#34;#平面设计作图神器：创客贴&#34; class=&#34;headerlink&#34; title=&#34;平面设计作图神器：创客贴&#34;&gt;&lt;/a&gt;平面设计作图神器：创客贴&lt;/h4&gt;&lt;p&gt;网址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY2h1YW5na2l0LmNvbS8=&#34;&gt;https://www.chuangkit.com/&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;用来做封面图非常方便，通过这个网站你可以制作好看的海报、简历、新媒体文章的首页图等等，甚至很多免费且好看的 PPT插件可以直接用，良心工具~&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/20200912200543.jpg&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
-&lt;h4 id=&#34;好用的网盘工具：奶牛快传&#34;&gt;&lt;a href=&#34;#好用的网盘工具：奶牛快传&#34; class=&#34;headerlink&#34; title=&#34;好用的网盘工具：奶牛快传&#34;&gt;&lt;/a&gt;好用的网盘工具：奶牛快传&lt;/h4&gt;&lt;p&gt;网址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jb3d0cmFuc2Zlci5jb20v&#34;&gt;https://cowtransfer.com/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/20200912200521.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;平面设计作图神器创客贴&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#平面设计作图神器创客贴&#34;&gt;#&lt;/a&gt; 平面设计作图神器：创客贴&lt;/h4&gt;
+&lt;p&gt;网址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY2h1YW5na2l0LmNvbS8=&#34;&gt;https://www.chuangkit.com/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;用来做封面图非常方便，通过这个网站你可以制作好看的海报、简历、新媒体文章的首页图等等，甚至很多免费且好看的 PPT 插件可以直接用，良心工具～&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/20200912200543.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;好用的网盘工具奶牛快传&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#好用的网盘工具奶牛快传&#34;&gt;#&lt;/a&gt; 好用的网盘工具：奶牛快传&lt;/h4&gt;
+&lt;p&gt;网址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jb3d0cmFuc2Zlci5jb20v&#34;&gt;https://cowtransfer.com/&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;体验还不错的网盘工具，和百度网盘类似，没有下载速度的限制，传输速度也很快。你给别人分享文件，别人无需登录即可直接下载。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/20200912200543.jpg&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/wawacmpic/pic/wawacdn/20200912200543.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>

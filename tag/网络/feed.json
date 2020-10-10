@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "曹远繁,娃娃 • All posts by \"网络\" tag",
+    "description": "记录个人生活",
+    "home_page_url": "https://blog.wxl.pw",
+    "items": [
+        {
+            "id": "https://blog.wxl.pw/2020/10/10/%E7%94%B5%E8%84%91%E6%B2%A1%E7%BD%91%E7%BB%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/",
+            "url": "https://blog.wxl.pw/2020/10/10/%E7%94%B5%E8%84%91%E6%B2%A1%E7%BD%91%E7%BB%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/",
+            "title": "电脑没网络解决方案",
+            "date_published": "2020-10-10T11:37:32.000Z",
+            "content_html": "<p>电脑没网络？电脑没网络请提供以下回答！<br />\n请务必跟进回答。<br />\n1. 请问您是路由器还是直连运营商网线宽带拨号？<br />\n2. 如上题，如果您是路由器，请问您手机连接同电脑路由器能上网吗？<br />\n（若是宽带拨号则忽略 2）<br />\n3. 您是 win 几的系统呢？<br />\n4. 请您打开您电脑的杀毒软件，找到该杀毒软件的断网修复，若是修复失败，请提供相关截图。<br />\n5. 在左下角开始菜单栏里面搜索 cmd，请（一定要以管理员身份运行（如果没找到管理员选项，请右键）），</p>\n<p><img data-src=\"https://ae01.alicdn.com/kf/Ue6e7153dd4164fc8b41fc383c252ee57z.jpg\" alt=\"img\" /></p>\n<p>打开管理员的 CMD 后，请输入<br />\n netsh winsock reset</p>\n<p><img data-src=\"https://ae01.alicdn.com/kf/Ue8cd61bd3b804037a2a8fd40b26f3b5aC.jpg\" alt=\"img\" /><br />\n（注意符号注意空格，本条命令的绝对可以执行的，若是您无法执行，一定是您未按说明处理）<br />\n输入好以上命令后，请按回车等待，并且接着输入<br />\n netsh int ip reset c： \\ resetlog.txt</p>\n<p><img data-src=\"https://ae01.alicdn.com/kf/U7e0f05848c7b48f3ab50d801202e605cV.jpg\" alt=\"img\" /><br />\n 输入完成后按回车，等待，并且接着输入<br />\n sfc /scannow</p>\n<p><img data-src=\"https://ae01.alicdn.com/kf/U0c1fab96e88448ce9b28476225ac8995H.jpg\" alt=\"img\" /><br />\n 输入完成后，等进度条百分百，并且如果您是 win10 系统，请右键右下方的网络图标选中疑难解答，若非，请直接重启</p>\n<p><img data-src=\"https://ae01.alicdn.com/kf/U1d739ae7043a4258afa9f974220b8641F.jpg\" alt=\"img\" /><br />\n6. 请提供本地连接 - 详细信息的截图（不懂打开本地连接，请百度）</p>\n<p><img data-src=\"https://ae01.alicdn.com/kf/Uca7b25e91e3644519c8cc990cd894499J.jpg\" alt=\"img\" /></p>\n<p><img data-src=\"https://ae01.alicdn.com/kf/U0f9657175ff24114bd724f5eec5f7f33Y.jpg\" alt=\"img\" /></p>\n<p>7. 请下载驱动精灵网卡版，然后重装网卡驱动<br />\n 8. 把本地连接 - 属性 - ipv4 - 设为自动获取 ip 和自动获取 dns</p>\n<p><img data-src=\"https://ae01.alicdn.com/kf/U36a95d91aac64dc88e2f2f958238c25eC.jpg\" alt=\"img\" /><img data-src=\"https://ae01.alicdn.com/kf/Ua12e86a04fbb4ebabb9af935b4b6f1a74.jpg\" alt=\"img\" /><br />\n9. 重启路由器<br />\n 10. 笔记本电脑请按下 fn + 飞行模式图标或者 fn + 网络图标，看是否有网络，或者看您笔记本有没有物理按键禁用了网络。<br />\n如上解决方案，能解决百分之 99 的系统网络问题，若还是不行，可以尝试重装系统亦或者联系解决<br />\n如果您要联系解决，请务必跟进 1，2，3，4，6 发到群（325100701）里或者到问答社区提交问题 (<span class=\"exturl\" data-url=\"aHR0cDovL3FhLndhd2FjbS5jb20=\">qa.wawacm.com</span>)!</p>\n",
+            "tags": [
+                "网络"
+            ]
+        }
+    ]
+}

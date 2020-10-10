@@ -7,11 +7,15 @@
         <language>zh-CN</language>
         <pubDate>Fri, 18 Sep 2020 23:22:16 +0800</pubDate>
         <lastBuildDate>Fri, 18 Sep 2020 23:22:16 +0800</lastBuildDate>
+        <category>重置</category>
         <category>关机</category>
-        <category>宝塔</category>
         <category>网盘</category>
         <category>nginx</category>
+        <category>宝塔</category>
         <category>微博</category>
+        <category>声音</category>
+        <category>网络</category>
+        <category>重装</category>
         <item>
             <guid isPermalink="true">https://blog.wxl.pw/2020/09/18/Win%E6%97%A0%E9%9C%80%E8%BD%AF%E4%BB%B6%E5%AE%9A%E6%97%B6%E5%85%B3%E6%9C%BA%E4%BB%A3%E7%A0%81/</guid>
             <title>Win无需软件定时关机代码</title>
