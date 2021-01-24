@@ -15,7 +15,10 @@
     <category term="网络" />
     <category term="重装" />
     <category term="线路" />
-    <category term="电影" />
+    <category term="录制" />
+    <category term="bilibili" />
+    <category term="爱剪辑" />
+    <category term="转换器" />
     <entry>
         <id>https://blog.wxl.pw/2020/09/28/%E7%94%A8%E5%BE%AE%E5%8D%9A%E5%9B%BE%E7%89%87%E5%8F%8D%E6%9F%A5%E4%B8%8A%E4%BC%A0%E8%80%85%E4%BF%A1%E6%81%AF/</id>
         <title>用微博图片反查上传者信息</title>

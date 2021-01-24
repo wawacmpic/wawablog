@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.wxl.pw</id>
+    <title>曹远繁,娃娃 • Posts by &#34;bilibili&#34; tag</title>
+    <link href="https://blog.wxl.pw" />
+    <updated>2021-01-24T11:02:00.000Z</updated>
+    <category term="重置" />
+    <category term="关机" />
+    <category term="网盘" />
+    <category term="nginx" />
+    <category term="破解" />
+    <category term="宝塔" />
+    <category term="微博" />
+    <category term="声音" />
+    <category term="网络" />
+    <category term="重装" />
+    <category term="线路" />
+    <category term="录制" />
+    <category term="bilibili" />
+    <category term="爱剪辑" />
+    <category term="转换器" />
+    <entry>
+        <id>https://blog.wxl.pw/2021/01/24/bilibili%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E5%99%A8/</id>
+        <title>bilibili视频下载器</title>
+        <link rel="alternate" href="https://blog.wxl.pw/2021/01/24/bilibili%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E5%99%A8/"/>
+        <content type="html">&lt;p&gt;哔哩哔哩视频下载器，软件支持搜索、&lt;/p&gt;
+&lt;p&gt;翻页、查看详情等，解析支持单 P、多 P、4K 等，下载支持多线程、断点续传，&lt;/p&gt;
+&lt;p&gt;默认下载路径为软件运行目录下的 download 文件夹中。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdnjsqa.wawacm.com/20210124190426.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;下载&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#下载&#34;&gt;#&lt;/a&gt; 下载&lt;/h1&gt;
+&lt;p&gt;海外：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovLzMyNTEwMDcwMS54eXovP2RsPTcwN2I1MDA1NjIwZTQyYjU5NmVkMWI5ZmYzNTRkNjA2&#34;&gt;娃娃网盘&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;内地：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93YXdhY20ubGFuem91cy5jb20vaTdWWUxrc2djN2k=&#34;&gt;蓝奏云盘&lt;/span&gt;&lt;/p&gt;
+</content>
+        <category term="bilibili" />
+        <updated>2021-01-24T11:02:00.000Z</updated>
+    </entry>
+</feed>
