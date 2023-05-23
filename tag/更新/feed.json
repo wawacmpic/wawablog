@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "娃娃团队 • All posts by \"更新\" tag",
+    "description": "娃娃团队官方博客",
+    "home_page_url": "https://blog.wxl.pw",
+    "items": [
+        {
+            "id": "https://blog.wxl.pw/2023/03/20/%E5%85%B3%E9%97%AD%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0/",
+            "url": "https://blog.wxl.pw/2023/03/20/%E5%85%B3%E9%97%AD%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0/",
+            "title": "关闭系统更新",
+            "date_published": "2023-03-19T18:53:51.000Z",
+            "content_html": "<p>1、同时按下键盘的 Win+R 键，在弹出的运行框内输入 services.msc 后点确定。</p>\n<p>​    <img data-src=\"https://image.wawacm.com/wawacdn/20230322010208.png\" alt=\"0\" /></p>\n<p>​    <img data-src=\"https://image.wawacm.com/wawacdn/20230322010127.png\" alt=\"0\" /></p>\n<p>2、在弹出的服务窗口中向下拖找到 Windows Update 并双击打开。</p>\n<p>​    <img data-src=\"https://image.wawacm.com/wawacdn/20230322010149.png\" alt=\"0\" /></p>\n<p>3、在弹出的窗口中点停止，再将启用类型点开改为禁用。再点开上面的恢复选项卡，将所有的失败操作改为无操作，全部改完后点确定，重启生效。</p>\n<p>​    <img data-src=\"https://image.wawacm.com/wawacdn/20230322010208.png\" alt=\"0\" /></p>\n",
+            "tags": [
+                "更新"
+            ]
+        }
+    ]
+}

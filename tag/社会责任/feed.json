@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "娃娃团队 • All posts by \"社会责任\" tag",
+    "description": "娃娃团队官方博客",
+    "home_page_url": "https://blog.wxl.pw",
+    "items": [
+        {
+            "id": "https://blog.wxl.pw/2022/02/03/%E5%A8%83%E5%A8%83%E5%9B%A2%E9%98%9F-%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB/",
+            "url": "https://blog.wxl.pw/2022/02/03/%E5%A8%83%E5%A8%83%E5%9B%A2%E9%98%9F-%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB/",
+            "title": "娃娃团队-社会责任",
+            "date_published": "2022-02-03T12:49:42.000Z",
+            "content_html": "<h1 id=\"社会和谐\"><a class=\"anchor\" href=\"#社会和谐\">#</a> 社会和谐</h1>\n<p>我们始终为个人用户提供免费的技术支持，通过深化社会责任理念，开展社会公益活动，参与社区共建，积极回馈社会，致力成为优秀团队公民。</p>\n<h1 id=\"绿色发展\"><a class=\"anchor\" href=\"#绿色发展\">#</a> 绿色发展</h1>\n<p>娃娃团队始终为减轻碳排放贡献一份力量。</p>\n<p><strong>我们做了什么？</strong></p>\n<p>我们采用 cloudflare、腾讯、阿里、创宇的云安全，减少硬件使用量。</p>\n<p>我们默认限制 CPU 使用率，减少电量的使用；</p>\n<p>我们默认采用 2 个回原节点和 1 个中间源节点，减少电量的使用；</p>\n<p>重置图像大小、 不自动播放视频、削减庞大的 Javascript 、购买可再生能源额度 (REC)、使用 GIT 托管等等；</p>\n",
+            "tags": [
+                "社会责任"
+            ]
+        }
+    ]
+}

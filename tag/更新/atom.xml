@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.wxl.pw</id>
+    <title>娃娃团队 • Posts by &#34;更新&#34; tag</title>
+    <link href="https://blog.wxl.pw" />
+    <updated>2023-03-19T18:53:51.000Z</updated>
+    <category term="重置" />
+    <category term="关机" />
+    <category term="系统" />
+    <category term="声音" />
+    <category term="网络" />
+    <category term="重装" />
+    <category term="线路" />
+    <category term="社会责任" />
+    <category term="蓝屏" />
+    <category term="更新" />
+    <entry>
+        <id>https://blog.wxl.pw/2023/03/20/%E5%85%B3%E9%97%AD%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0/</id>
+        <title>关闭系统更新</title>
+        <link rel="alternate" href="https://blog.wxl.pw/2023/03/20/%E5%85%B3%E9%97%AD%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0/"/>
+        <content type="html">&lt;p&gt;1、同时按下键盘的 Win+R 键，在弹出的运行框内输入 services.msc 后点确定。&lt;/p&gt;
+&lt;p&gt;​    &lt;img data-src=&#34;https://image.wawacm.com/wawacdn/20230322010208.png&#34; alt=&#34;0&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;​    &lt;img data-src=&#34;https://image.wawacm.com/wawacdn/20230322010127.png&#34; alt=&#34;0&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;2、在弹出的服务窗口中向下拖找到 Windows Update 并双击打开。&lt;/p&gt;
+&lt;p&gt;​    &lt;img data-src=&#34;https://image.wawacm.com/wawacdn/20230322010149.png&#34; alt=&#34;0&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;3、在弹出的窗口中点停止，再将启用类型点开改为禁用。再点开上面的恢复选项卡，将所有的失败操作改为无操作，全部改完后点确定，重启生效。&lt;/p&gt;
+&lt;p&gt;​    &lt;img data-src=&#34;https://image.wawacm.com/wawacdn/20230322010208.png&#34; alt=&#34;0&#34; /&gt;&lt;/p&gt;
+</content>
+        <category term="更新" />
+        <updated>2023-03-19T18:53:51.000Z</updated>
+    </entry>
+</feed>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.wxl.pw</id>
+    <title>娃娃团队 • Posts by &#34;社会责任&#34; tag</title>
+    <link href="https://blog.wxl.pw" />
+    <updated>2022-02-03T12:49:42.000Z</updated>
+    <category term="重置" />
+    <category term="关机" />
+    <category term="系统" />
+    <category term="声音" />
+    <category term="网络" />
+    <category term="重装" />
+    <category term="线路" />
+    <category term="社会责任" />
+    <category term="蓝屏" />
+    <category term="更新" />
+    <entry>
+        <id>https://blog.wxl.pw/2022/02/03/%E5%A8%83%E5%A8%83%E5%9B%A2%E9%98%9F-%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB/</id>
+        <title>娃娃团队-社会责任</title>
+        <link rel="alternate" href="https://blog.wxl.pw/2022/02/03/%E5%A8%83%E5%A8%83%E5%9B%A2%E9%98%9F-%E7%A4%BE%E4%BC%9A%E8%B4%A3%E4%BB%BB/"/>
+        <content type="html">&lt;h1 id=&#34;社会和谐&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#社会和谐&#34;&gt;#&lt;/a&gt; 社会和谐&lt;/h1&gt;
+&lt;p&gt;我们始终为个人用户提供免费的技术支持，通过深化社会责任理念，开展社会公益活动，参与社区共建，积极回馈社会，致力成为优秀团队公民。&lt;/p&gt;
+&lt;h1 id=&#34;绿色发展&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#绿色发展&#34;&gt;#&lt;/a&gt; 绿色发展&lt;/h1&gt;
+&lt;p&gt;娃娃团队始终为减轻碳排放贡献一份力量。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;我们做了什么？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我们采用 cloudflare、腾讯、阿里、创宇的云安全，减少硬件使用量。&lt;/p&gt;
+&lt;p&gt;我们默认限制 CPU 使用率，减少电量的使用；&lt;/p&gt;
+&lt;p&gt;我们默认采用 2 个回原节点和 1 个中间源节点，减少电量的使用；&lt;/p&gt;
+&lt;p&gt;重置图像大小、 不自动播放视频、削减庞大的 Javascript 、购买可再生能源额度 (REC)、使用 GIT 托管等等；&lt;/p&gt;
+</content>
+        <category term="社会责任" />
+        <updated>2022-02-03T12:49:42.000Z</updated>
+    </entry>
+</feed>

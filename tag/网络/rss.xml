@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>娃娃团队 • Posts by &#34;网络&#34; tag</title>
+        <link>https://blog.wxl.pw</link>
+        <description>娃娃团队官方博客</description>
+        <language>zh-CN</language>
+        <pubDate>Sat, 10 Oct 2020 19:37:32 +0800</pubDate>
+        <lastBuildDate>Sat, 10 Oct 2020 19:37:32 +0800</lastBuildDate>
+        <category>重置</category>
+        <category>关机</category>
+        <category>系统</category>
+        <category>声音</category>
+        <category>网络</category>
+        <category>重装</category>
+        <category>线路</category>
+        <category>社会责任</category>
+        <category>蓝屏</category>
+        <category>更新</category>
+        <item>
+            <guid isPermalink="true">https://blog.wxl.pw/2020/10/10/%E7%94%B5%E8%84%91%E6%B2%A1%E7%BD%91%E7%BB%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</guid>
+            <title>电脑没网络解决方案</title>
+            <link>https://blog.wxl.pw/2020/10/10/%E7%94%B5%E8%84%91%E6%B2%A1%E7%BD%91%E7%BB%9C%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</link>
+            <category>网络</category>
+            <pubDate>Sat, 10 Oct 2020 19:37:32 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;电脑没网络？电脑没网络请提供以下回答！&lt;br /&gt;
+请务必跟进回答。&lt;br /&gt;
+1. 请问您是路由器还是直连运营商网线宽带拨号？&lt;br /&gt;
+2. 如上题，如果您是路由器，请问您手机连接同电脑路由器能上网吗？&lt;br /&gt;
+（若是宽带拨号则忽略 2）&lt;br /&gt;
+3. 您是 win 几的系统呢？&lt;br /&gt;
+4. 请您打开您电脑的杀毒软件，找到该杀毒软件的断网修复，若是修复失败，请提供相关截图。&lt;br /&gt;
+5. 在左下角开始菜单栏里面搜索 cmd，请（一定要以管理员身份运行（如果没找到管理员选项，请右键）），&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/Ue6e7153dd4164fc8b41fc383c252ee57z.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;打开管理员的 CMD 后，请输入&lt;br /&gt;
+ netsh winsock reset&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/Ue8cd61bd3b804037a2a8fd40b26f3b5aC.jpg&#34; alt=&#34;img&#34; /&gt;&lt;br /&gt;
+（注意符号注意空格，本条命令的绝对可以执行的，若是您无法执行，一定是您未按说明处理）&lt;br /&gt;
+输入好以上命令后，请按回车等待，并且接着输入&lt;br /&gt;
+ netsh int ip reset c： \ resetlog.txt&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U7e0f05848c7b48f3ab50d801202e605cV.jpg&#34; alt=&#34;img&#34; /&gt;&lt;br /&gt;
+ 输入完成后按回车，等待，并且接着输入&lt;br /&gt;
+ sfc /scannow&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U0c1fab96e88448ce9b28476225ac8995H.jpg&#34; alt=&#34;img&#34; /&gt;&lt;br /&gt;
+ 输入完成后，等进度条百分百，并且如果您是 win10 系统，请右键右下方的网络图标选中疑难解答，若非，请直接重启&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U1d739ae7043a4258afa9f974220b8641F.jpg&#34; alt=&#34;img&#34; /&gt;&lt;br /&gt;
+6. 请提供本地连接 - 详细信息的截图（不懂打开本地连接，请百度）&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/Uca7b25e91e3644519c8cc990cd894499J.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U0f9657175ff24114bd724f5eec5f7f33Y.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;7. 请下载驱动精灵网卡版，然后重装网卡驱动&lt;br /&gt;
+ 8. 把本地连接 - 属性 - ipv4 - 设为自动获取 ip 和自动获取 dns&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/U36a95d91aac64dc88e2f2f958238c25eC.jpg&#34; alt=&#34;img&#34; /&gt;&lt;img data-src=&#34;https://ae01.alicdn.com/kf/Ua12e86a04fbb4ebabb9af935b4b6f1a74.jpg&#34; alt=&#34;img&#34; /&gt;&lt;br /&gt;
+9. 重启路由器&lt;br /&gt;
+ 10. 笔记本电脑请按下 fn + 飞行模式图标或者 fn + 网络图标，看是否有网络，或者看您笔记本有没有物理按键禁用了网络。&lt;br /&gt;
+如上解决方案，能解决百分之 99 的系统网络问题，若还是不行，可以尝试重装系统亦或者联系解决&lt;br /&gt;
+如果您要联系解决，请务必跟进 1，2，3，4，6 发到群（325100701）里或者到问答社区提交问题 (&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2ltYWdlLndhd2FjbS5jb20=&#34;&gt;image.wawacm.com&lt;/span&gt;)!&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

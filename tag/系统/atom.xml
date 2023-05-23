@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.wxl.pw</id>
+    <title>娃娃团队 • Posts by &#34;系统&#34; tag</title>
+    <link href="https://blog.wxl.pw" />
+    <updated>2022-01-27T10:20:56.000Z</updated>
+    <category term="重置" />
+    <category term="关机" />
+    <category term="系统" />
+    <category term="声音" />
+    <category term="网络" />
+    <category term="重装" />
+    <category term="线路" />
+    <category term="社会责任" />
+    <category term="蓝屏" />
+    <category term="更新" />
+    <entry>
+        <id>https://blog.wxl.pw/2022/01/27/%E4%BF%AE%E5%A4%8D%E7%B3%BB%E7%BB%9F/</id>
+        <title>修复系统</title>
+        <link rel="alternate" href="https://blog.wxl.pw/2022/01/27/%E4%BF%AE%E5%A4%8D%E7%B3%BB%E7%BB%9F/"/>
+        <content type="html">&lt;h1 id=&#34;一般电脑修复&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一般电脑修复&#34;&gt;#&lt;/a&gt; 一般电脑修复&lt;/h1&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://image.wawacm.com/wawacdn/202201271820838.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;1. 单击开始菜单栏，输入 CMD，然后右键命令提示符，选择以管理员身份运行；&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://image.wawacm.com/wawacdn/202201271825151.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;在命令提示符框中输入：&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sfc&amp;#x2F;scannow&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;（可直接复制粘贴）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;然后回车；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;等待大约 5 分钟的样子，如果系统有错误文件，就能检测并修复系统中出错的文件；&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://image.wawacm.com/wawacdn/202201271826742.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;5. 在开始菜单栏搜索 powershell ，同样右键以管理员身份运行；在命令提示符下键入以下命令：&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;DISM.exe &amp;#x2F;Online &amp;#x2F;Cleanup-image &amp;#x2F;Restorehealth&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;回车即可；&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://image.wawacm.com/wawacdn/202201271912416.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;其他修复&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#其他修复&#34;&gt;#&lt;/a&gt; 其他修复&lt;/h1&gt;
+&lt;p&gt;其他修复命令 (在 CMD 下使用，以下命令仅修复特定系统错误)&lt;/p&gt;
+&lt;p&gt;(1) 检查引导是否损坏的命令：&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;bcdedit &amp;#x2F;enum&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;(2) 找到坏扇区并恢复可读取的信息的命令：&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;chkdsk &amp;#x2F;r&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;(4) 修复 Windows 10 的主引导记录并重建 BCD 配置文件的命令：&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;BOOTREC &amp;#x2F;SCANOS&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;BOOTREC &amp;#x2F;FIXMBR&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;BOOTREC &amp;#x2F;FIXBOOT&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;BOOTREC &amp;#x2F;REBUILDBCD&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+</content>
+        <category term="系统" />
+        <updated>2022-01-27T10:20:56.000Z</updated>
+    </entry>
+</feed>

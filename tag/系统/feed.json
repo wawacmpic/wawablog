@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "娃娃团队 • All posts by \"系统\" tag",
+    "description": "娃娃团队官方博客",
+    "home_page_url": "https://blog.wxl.pw",
+    "items": [
+        {
+            "id": "https://blog.wxl.pw/2022/01/27/%E4%BF%AE%E5%A4%8D%E7%B3%BB%E7%BB%9F/",
+            "url": "https://blog.wxl.pw/2022/01/27/%E4%BF%AE%E5%A4%8D%E7%B3%BB%E7%BB%9F/",
+            "title": "修复系统",
+            "date_published": "2022-01-27T10:20:56.000Z",
+            "content_html": "<h1 id=\"一般电脑修复\"><a class=\"anchor\" href=\"#一般电脑修复\">#</a> 一般电脑修复</h1>\n<p><img data-src=\"https://image.wawacm.com/wawacdn/202201271820838.png\" alt=\"\" /></p>\n<p>1. 单击开始菜单栏，输入 CMD，然后右键命令提示符，选择以管理员身份运行；</p>\n<p><img data-src=\"https://image.wawacm.com/wawacdn/202201271825151.png\" alt=\"\" /></p>\n<ol start=\"2\">\n<li>\n<p>在命令提示符框中输入：</p>\n<p><figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">sfc&#x2F;scannow</span><br></pre></td></tr></table></figure></p>\n<p>（可直接复制粘贴）。</p>\n</li>\n<li>\n<p>然后回车；</p>\n</li>\n<li>\n<p>等待大约 5 分钟的样子，如果系统有错误文件，就能检测并修复系统中出错的文件；</p>\n</li>\n</ol>\n<p><img data-src=\"https://image.wawacm.com/wawacdn/202201271826742.png\" alt=\"\" /></p>\n<p>5. 在开始菜单栏搜索 powershell ，同样右键以管理员身份运行；在命令提示符下键入以下命令：</p>\n<p><figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">DISM.exe &#x2F;Online &#x2F;Cleanup-image &#x2F;Restorehealth</span><br></pre></td></tr></table></figure></p>\n<p>回车即可；</p>\n<p><img data-src=\"https://image.wawacm.com/wawacdn/202201271912416.png\" alt=\"\" /></p>\n<h1 id=\"其他修复\"><a class=\"anchor\" href=\"#其他修复\">#</a> 其他修复</h1>\n<p>其他修复命令 (在 CMD 下使用，以下命令仅修复特定系统错误)</p>\n<p>(1) 检查引导是否损坏的命令：</p>\n<p><figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">bcdedit &#x2F;enum</span><br></pre></td></tr></table></figure></p>\n<p>(2) 找到坏扇区并恢复可读取的信息的命令：</p>\n<p><figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">chkdsk &#x2F;r</span><br></pre></td></tr></table></figure></p>\n<p>(4) 修复 Windows 10 的主引导记录并重建 BCD 配置文件的命令：</p>\n<p><figure class=\"highlight plain\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br><span class=\"line\">6</span><br><span class=\"line\">7</span><br><span class=\"line\">8</span><br><span class=\"line\">9</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">BOOTREC &#x2F;SCANOS</span><br><span class=\"line\"></span><br><span class=\"line\">BOOTREC &#x2F;FIXMBR</span><br><span class=\"line\"></span><br><span class=\"line\">BOOTREC &#x2F;FIXBOOT</span><br><span class=\"line\"></span><br><span class=\"line\">BOOTREC &#x2F;REBUILDBCD</span><br><span class=\"line\"></span><br><span class=\"line\"></span><br></pre></td></tr></table></figure></p>\n",
+            "tags": [
+                "系统"
+            ]
+        }
+    ]
+}
