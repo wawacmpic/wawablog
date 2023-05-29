@@ -113,7 +113,7 @@ Windows 11 产品安装密钥：&lt;br /&gt;
 &lt;h2 id=&#34;1娃娃团队应急响应中心优化了2处bug并且修复了1处漏洞&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1娃娃团队应急响应中心优化了2处bug并且修复了1处漏洞&#34;&gt;#&lt;/a&gt; 1. 娃娃团队应急响应中心，优化了 2 处 bug，并且修复了 1 处漏洞&lt;/h2&gt;
 &lt;p&gt;​	（1 优化提示界面重复提交。&lt;/p&gt;
 &lt;p&gt;​	（2 优化优化内容含有 xss 代码，上传后，后端判断 cookie 封禁 CDN 节点。&lt;/p&gt;
-&lt;p&gt;​	（3 修复利用 hard 的 xss 攻击。&lt;/p&gt;
+&lt;p&gt;​	（3 修复利用 hacker 的 xss 攻击。&lt;/p&gt;
 &lt;h2 id=&#34;2修复诈骗查询&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2修复诈骗查询&#34;&gt;#&lt;/a&gt; 2. 修复诈骗查询：&lt;/h2&gt;
 &lt;p&gt;​	（1 修复 Thinkphp 的 log 漏洞。&lt;/p&gt;
 &lt;h1 id=&#34;二-后端waf防护升级&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二-后端waf防护升级&#34;&gt;#&lt;/a&gt; 二、后端 waf 防护升级&lt;/h1&gt;
