@@ -24,12 +24,12 @@
             <category>更新</category>
             <pubDate>Mon, 20 Mar 2023 02:53:51 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;1、同时按下键盘的 Win+R 键，在弹出的运行框内输入 services.msc 后点确定。&lt;/p&gt;
-&lt;p&gt;​    &lt;img data-src=&#34;https://image.wawacm.com/wawacdn/20230322010208.png&#34; alt=&#34;0&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;​    &lt;img data-src=&#34;https://image.wawacm.com/wawacdn/20230322010127.png&#34; alt=&#34;0&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;​    &lt;img data-src=&#34;https://image.wawacm.com/wawacdn/202305292029156.png&#34; alt=&#34;0&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;​    &lt;img data-src=&#34;https://image.wawacm.com/wawacdn/wawacdn/202305292030167.png&#34; alt=&#34;0&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;2、在弹出的服务窗口中向下拖找到 Windows Update 并双击打开。&lt;/p&gt;
-&lt;p&gt;​    &lt;img data-src=&#34;https://image.wawacm.com/wawacdn/20230322010149.png&#34; alt=&#34;0&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;​    &lt;img data-src=&#34;https://image.wawacm.com/wawacdn/wawacdn/202305292030157.png&#34; alt=&#34;0&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;3、在弹出的窗口中点停止，再将启用类型点开改为禁用。再点开上面的恢复选项卡，将所有的失败操作改为无操作，全部改完后点确定，重启生效。&lt;/p&gt;
-&lt;p&gt;​    &lt;img data-src=&#34;https://image.wawacm.com/wawacdn/20230322010208.png&#34; alt=&#34;0&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;​    &lt;img data-src=&#34;https://image.wawacm.com/wawacdn/wawacdn/202305292030982.png&#34; alt=&#34;0&#34; /&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
